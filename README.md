@@ -27,7 +27,7 @@ One install, five modes: **setup**, **sprint**, **hotfix**, **release** and **wo
 in Claude Code (roles as parallel headless sessions with tool-level file locks) and in other agents
 that can run git and Python, such as Codex CLI (one session plays each role in turn).
 
-**Get it:** on [Agensi](https://www.agensi.io) (listing coming soon).
+**Get it:** [Lanewright on Agensi](https://www.agensi.io/skills/lanewright-sprint-workflow-for-ai-coding-agent-teams).
 **Free alternative:** [scrum-kit](https://github.com/huzairsaputra/scrum-kit), the MIT Claude Code
 plugin Lanewright grew out of (commands and prompts in Bahasa Indonesia).
 
