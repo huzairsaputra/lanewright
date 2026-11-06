@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 436" width="1050" height="436" role="img" aria-label="Definition of Done per arm: Claude Code + Lanewright: Every item merged through its own PR 3/3, Merged only after CI on the PR head 3/3, Merge commits, draft integration PR, main untouched 3/3, No commit outside its region 3/3, Reports and sprint summary committed 3/3, Every checked item met 3/3; Claude Code + Lanewright, cost settings: Every item merged through its own PR 3/3, Merged only after CI on the PR head 3/3, Merge commits, draft integration PR, main untouched 3/3, No commit outside its region 3/3, Reports and sprint summary committed 3/3, Every checked item met 3/3; Claude Code, no pack: Every item merged through its own PR 3/3, Merged only after CI on the PR head 3/3, Merge commits, draft integration PR, main untouched 3/3, No commit outside its region 3/3, Reports and sprint summary committed 2/3, Every checked item met 2/3; Codex CLI + Lanewright: Every item merged through its own PR 3/3, Merged only after CI on the PR head 3/3, Merge commits, draft integration PR, main untouched 3/3, No commit outside its region 3/3, Reports and sprint summary committed 3/3, Every checked item met 3/3; Codex CLI, no pack: Every item merged through its own PR 3/3, Merged only after CI on the PR head 3/3, Merge commits, draft integration PR, main untouched 3/3, No commit outside its region 3/3, Reports and sprint summary committed 1/3, Every checked item met 1/3">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .on{fill:#111111} .mk{stroke:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .on{fill:#F2F2F2} .mk{stroke:#F2F2F2} .off{fill:#4A4A4A} .tile{fill:#1C1C1C}
+  }
+</style>
+<rect class="bg" width="1050" height="436" rx="12"/>
+<text x="28" y="42" class="fg" font-size="20" font-weight="700" text-anchor="start">Definition of Done, per arm</text>
+<text x="28" y="64" class="mu" font-size="13" font-weight="400" text-anchor="start">Runs (of 3) that met each item, read from git and the GitHub API.</text>
+<text x="400.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Claude Code +</text>
+<text x="400.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">Lanewright</text>
+<text x="540.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Claude Code +</text>
+<text x="540.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">Lanewright, cost</text>
+<text x="540.0" y="124" class="fg" font-size="12" font-weight="600" text-anchor="middle">settings</text>
+<text x="680.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Claude Code, no</text>
+<text x="680.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">pack</text>
+<text x="820.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Codex CLI +</text>
+<text x="820.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">Lanewright</text>
+<text x="960.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Codex CLI, no</text>
+<text x="960.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">pack</text>
+<line class="ln" x1="28" x2="1030" y1="146" y2="146"/>
+<text x="28" y="172" class="fg" font-size="14" font-weight="400" text-anchor="start">Every item merged through its own PR</text>
+<text x="400.0" y="172" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="540.0" y="172" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="680.0" y="172" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="820.0" y="172" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="960.0" y="172" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<line class="ln" x1="28" x2="1030" y1="190" y2="190"/>
+<text x="28" y="216" class="fg" font-size="14" font-weight="400" text-anchor="start">Merged only after CI on the PR head</text>
+<text x="400.0" y="216" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="540.0" y="216" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="680.0" y="216" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="820.0" y="216" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="960.0" y="216" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<line class="ln" x1="28" x2="1030" y1="234" y2="234"/>
+<text x="28" y="260" class="fg" font-size="14" font-weight="400" text-anchor="start">Merge commits, draft integration PR, main untouched</text>
+<text x="400.0" y="260" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="540.0" y="260" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="680.0" y="260" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="820.0" y="260" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="960.0" y="260" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<line class="ln" x1="28" x2="1030" y1="278" y2="278"/>
+<text x="28" y="304" class="fg" font-size="14" font-weight="400" text-anchor="start">No commit outside its region</text>
+<text x="400.0" y="304" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="540.0" y="304" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="680.0" y="304" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="820.0" y="304" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="960.0" y="304" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<line class="ln" x1="28" x2="1030" y1="322" y2="322"/>
+<text x="28" y="348" class="fg" font-size="14" font-weight="400" text-anchor="start">Reports and sprint summary committed</text>
+<text x="400.0" y="348" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="540.0" y="348" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="680.0" y="348" class="mu" font-size="15" font-weight="400" text-anchor="middle">2/3</text>
+<text x="820.0" y="348" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="960.0" y="348" class="mu" font-size="15" font-weight="400" text-anchor="middle">1/3</text>
+<line class="ln" x1="28" x2="1030" y1="366" y2="366"/>
+<text x="28" y="392" class="fg" font-size="14" font-weight="700" text-anchor="start">Every checked item met</text>
+<text x="400.0" y="392" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="540.0" y="392" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="680.0" y="392" class="mu" font-size="15" font-weight="400" text-anchor="middle">2/3</text>
+<text x="820.0" y="392" class="fg" font-size="15" font-weight="700" text-anchor="middle">3/3</text>
+<text x="960.0" y="392" class="mu" font-size="15" font-weight="400" text-anchor="middle">1/3</text>
+</svg>

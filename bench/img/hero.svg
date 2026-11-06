@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 290" width="880" height="290" role="img" aria-label="scrum-kit benchmark: 4/4 items merged only after a green CI run and a CLEAN review; 0 files committed outside a role&#x27;s region; 2 writes into another module caught by --check before commit (Codex run); 1 real defect caught by the separate QA role before merge (Codex run)">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .on{fill:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .on{fill:#F2F2F2} .off{fill:#4A4A4A} .tile{fill:#1C1C1C}
+  }
+</style>
+<rect class="bg" width="880" height="290" rx="12"/>
+<rect class="on" x="32.0" y="28.0" width="12.0" height="4.0" rx="2.0"/><rect class="on" x="38.0" y="36.0" width="12.0" height="4.0" rx="2.0"/><rect class="on" x="44.0" y="44.0" width="12.0" height="4.0" rx="2.0"/>
+<text x="76" y="52" class="fg" font-size="24" font-weight="700" text-anchor="start">scrum-kit 1.0 in one sprint</text>
+<text x="76" y="76" class="mu" font-size="14" font-weight="400" text-anchor="start">Claude Code (Opus 5.5) and Codex CLI, one run each. A fair with/without comparison is being re-run.</text>
+<rect class="tile" x="28" y="104" width="196" height="160" rx="10"/>
+<text x="44" y="156" class="fg" font-size="34" font-weight="700" text-anchor="start">4/4</text>
+<text x="44" y="188" class="mu" font-size="13" font-weight="400" text-anchor="start">items merged only after a</text>
+<text x="44" y="207" class="mu" font-size="13" font-weight="400" text-anchor="start">green CI run and a CLEAN</text>
+<text x="44" y="226" class="mu" font-size="13" font-weight="400" text-anchor="start">review</text>
+<rect class="tile" x="238" y="104" width="196" height="160" rx="10"/>
+<text x="254" y="156" class="fg" font-size="34" font-weight="700" text-anchor="start">0</text>
+<text x="254" y="188" class="mu" font-size="13" font-weight="400" text-anchor="start">files committed outside a</text>
+<text x="254" y="207" class="mu" font-size="13" font-weight="400" text-anchor="start">role&#x27;s region</text>
+<rect class="tile" x="448" y="104" width="196" height="160" rx="10"/>
+<text x="464" y="156" class="fg" font-size="34" font-weight="700" text-anchor="start">2</text>
+<text x="464" y="188" class="mu" font-size="13" font-weight="400" text-anchor="start">writes into another module</text>
+<text x="464" y="207" class="mu" font-size="13" font-weight="400" text-anchor="start">caught by --check before</text>
+<text x="464" y="226" class="mu" font-size="13" font-weight="400" text-anchor="start">commit (Codex run)</text>
+<rect class="tile" x="658" y="104" width="196" height="160" rx="10"/>
+<text x="674" y="156" class="fg" font-size="34" font-weight="700" text-anchor="start">1</text>
+<text x="674" y="188" class="mu" font-size="13" font-weight="400" text-anchor="start">real defect caught by the</text>
+<text x="674" y="207" class="mu" font-size="13" font-weight="400" text-anchor="start">separate QA role before</text>
+<text x="674" y="226" class="mu" font-size="13" font-weight="400" text-anchor="start">merge (Codex run)</text>
+</svg>

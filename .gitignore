@@ -1,0 +1,10 @@
+# Public branch: only the benchmark reports, charts and brand files are published.
+# The paid skill (package/, build.py, tests/, dist/) and private notes live on the private
+# main branch, which is never pushed.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/bench/
+!/brand/
+__pycache__/

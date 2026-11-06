@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 276" width="880" height="276" role="img" aria-label="Cost per run: Claude Code + scrum-kit: 49672 output tokens, 1251 s; Codex CLI + scrum-kit: 22857 output tokens, 1017 s">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .on{fill:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .on{fill:#F2F2F2} .off{fill:#4A4A4A} .tile{fill:#1C1C1C}
+  }
+</style>
+<rect class="bg" width="880" height="276" rx="12"/>
+<text x="28" y="42" class="fg" font-size="20" font-weight="700" text-anchor="start">What one sprint cost with the pack</text>
+<text x="28" y="64" class="mu" font-size="13" font-weight="400" text-anchor="start">Two items, each with its own implementer, QA and reviewer. Claude cost: Claude Code + scrum-kit $4.64</text>
+<text x="28" y="100" class="fg" font-size="15" font-weight="700" text-anchor="start">Output tokens</text>
+<text x="28" y="131" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code + scrum-kit</text>
+<rect class="on" x="230" y="118" width="520.0" height="16" rx="3"/>
+<text x="758.0" y="131" class="fg" font-size="13" font-weight="400" text-anchor="start">49,672</text>
+<text x="28" y="157" class="mu" font-size="13" font-weight="400" text-anchor="start">Codex CLI + scrum-kit</text>
+<rect class="on" x="230" y="144" width="239.3" height="16" rx="3"/>
+<text x="477.2824931550974" y="157" class="fg" font-size="13" font-weight="400" text-anchor="start">22,857</text>
+<text x="28" y="188" class="fg" font-size="15" font-weight="700" text-anchor="start">Wall time</text>
+<text x="28" y="219" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code + scrum-kit</text>
+<rect class="on" x="230" y="206" width="520.0" height="16" rx="3"/>
+<text x="758.0" y="219" class="fg" font-size="13" font-weight="400" text-anchor="start">20.9 min</text>
+<text x="28" y="245" class="mu" font-size="13" font-weight="400" text-anchor="start">Codex CLI + scrum-kit</text>
+<rect class="on" x="230" y="232" width="422.7" height="16" rx="3"/>
+<text x="660.7338129496403" y="245" class="fg" font-size="13" font-weight="400" text-anchor="start">16.9 min</text>
+</svg>

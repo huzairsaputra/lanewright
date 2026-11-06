@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 360" width="610" height="360" role="img" aria-label="Discipline per run: Claude Code + scrum-kit: Tests written by a different role yes, Review in a separate session yes, Ownership check before each commit yes, Files committed outside the region 0, Merged via PR after green CI 2/2; Codex CLI + scrum-kit: Tests written by a different role yes, Review in a separate session no, Ownership check before each commit yes, Files committed outside the region 0, Merged via PR after green CI 2/2">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .on{fill:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .on{fill:#F2F2F2} .off{fill:#4A4A4A} .tile{fill:#1C1C1C}
+  }
+</style>
+<rect class="bg" width="610" height="360" rx="12"/>
+<text x="28" y="42" class="fg" font-size="20" font-weight="700" text-anchor="start">What the pack enforced</text>
+<text x="28" y="64" class="mu" font-size="13" font-weight="400" text-anchor="start">A cell is what the agent actually did, read from its branches and PRs.</text>
+<text x="365.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Claude Code +</text>
+<text x="365.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">scrum-kit</text>
+<text x="515.0" y="92" class="fg" font-size="12" font-weight="600" text-anchor="middle">Codex CLI +</text>
+<text x="515.0" y="108" class="fg" font-size="12" font-weight="600" text-anchor="middle">scrum-kit</text>
+<line class="ln" x1="28" x2="590" y1="114" y2="114"/>
+<text x="28" y="140" class="fg" font-size="14" font-weight="400" text-anchor="start">Tests written by a different role</text>
+<text x="365.0" y="140" class="fg" font-size="15" font-weight="700" text-anchor="middle">yes</text>
+<text x="515.0" y="140" class="fg" font-size="15" font-weight="700" text-anchor="middle">yes</text>
+<line class="ln" x1="28" x2="590" y1="158" y2="158"/>
+<text x="28" y="184" class="fg" font-size="14" font-weight="400" text-anchor="start">Review in a separate session</text>
+<text x="365.0" y="184" class="fg" font-size="15" font-weight="700" text-anchor="middle">yes</text>
+<text x="515.0" y="184" class="mu" font-size="15" font-weight="400" text-anchor="middle">no</text>
+<line class="ln" x1="28" x2="590" y1="202" y2="202"/>
+<text x="28" y="228" class="fg" font-size="14" font-weight="400" text-anchor="start">Ownership check before each commit</text>
+<text x="365.0" y="228" class="fg" font-size="15" font-weight="700" text-anchor="middle">yes</text>
+<text x="515.0" y="228" class="fg" font-size="15" font-weight="700" text-anchor="middle">yes</text>
+<line class="ln" x1="28" x2="590" y1="246" y2="246"/>
+<text x="28" y="272" class="fg" font-size="14" font-weight="400" text-anchor="start">Files committed outside the region</text>
+<text x="365.0" y="272" class="fg" font-size="15" font-weight="700" text-anchor="middle">0</text>
+<text x="515.0" y="272" class="fg" font-size="15" font-weight="700" text-anchor="middle">0</text>
+<line class="ln" x1="28" x2="590" y1="290" y2="290"/>
+<text x="28" y="316" class="fg" font-size="14" font-weight="400" text-anchor="start">Merged via PR after green CI</text>
+<text x="365.0" y="316" class="fg" font-size="15" font-weight="700" text-anchor="middle">2/2</text>
+<text x="515.0" y="316" class="fg" font-size="15" font-weight="700" text-anchor="middle">2/2</text>
+</svg>

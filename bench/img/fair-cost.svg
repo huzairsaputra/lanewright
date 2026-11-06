@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 432" width="880" height="432" role="img" aria-label="Mean cost per arm: Claude Code + Lanewright: 62882 output tokens, 14.3 min; Claude Code + Lanewright, cost settings: 38308 output tokens, 10.3 min; Claude Code, no pack: 52028 output tokens, 10.4 min; Codex CLI + Lanewright: 27902 output tokens, 17.1 min; Codex CLI, no pack: 13141 output tokens, 9.2 min">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .on{fill:#111111} .mk{stroke:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .on{fill:#F2F2F2} .mk{stroke:#F2F2F2} .off{fill:#4A4A4A} .tile{fill:#1C1C1C}
+  }
+</style>
+<rect class="bg" width="880" height="432" rx="12"/>
+<text x="28" y="42" class="fg" font-size="20" font-weight="700" text-anchor="start">What the pack costs</text>
+<text x="28" y="64" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude cost per sprint (mean, Opus 5.5 list price): with the pack $5.49, without $3.55. Codex not priced.</text>
+<text x="28" y="100" class="fg" font-size="15" font-weight="700" text-anchor="start">Output tokens (mean of 3)</text>
+<text x="28" y="131" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code + Lanewright</text>
+<rect class="on" x="300" y="118" width="450.0" height="16" rx="3"/>
+<text x="758.0" y="131" class="fg" font-size="13" font-weight="400" text-anchor="start">62,882</text>
+<text x="28" y="157" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code + Lanewright, cost settings</text>
+<rect class="off" x="300" y="144" width="274.1" height="16" rx="3"/>
+<text x="582.1429760346043" y="157" class="fg" font-size="13" font-weight="400" text-anchor="start">38,308</text>
+<text x="28" y="183" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code, no pack</text>
+<rect class="off" x="300" y="170" width="372.3" height="16" rx="3"/>
+<text x="680.3239701665015" y="183" class="fg" font-size="13" font-weight="400" text-anchor="start">52,028</text>
+<text x="28" y="209" class="mu" font-size="13" font-weight="400" text-anchor="start">Codex CLI + Lanewright</text>
+<rect class="on" x="300" y="196" width="199.7" height="16" rx="3"/>
+<text x="507.67054869677224" y="209" class="fg" font-size="13" font-weight="400" text-anchor="start">27,902</text>
+<text x="28" y="235" class="mu" font-size="13" font-weight="400" text-anchor="start">Codex CLI, no pack</text>
+<rect class="off" x="300" y="222" width="94.0" height="16" rx="3"/>
+<text x="402.0375410157596" y="235" class="fg" font-size="13" font-weight="400" text-anchor="start">13,141</text>
+<text x="28" y="266" class="fg" font-size="15" font-weight="700" text-anchor="start">Wall time (mean of 3)</text>
+<text x="28" y="297" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code + Lanewright</text>
+<rect class="on" x="300" y="284" width="376.8" height="16" rx="3"/>
+<text x="684.83284457478" y="297" class="fg" font-size="13" font-weight="400" text-anchor="start">14.3 min</text>
+<text x="28" y="323" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code + Lanewright, cost settings</text>
+<rect class="off" x="300" y="310" width="273.2" height="16" rx="3"/>
+<text x="581.16715542522" y="323" class="fg" font-size="13" font-weight="400" text-anchor="start">10.3 min</text>
+<text x="28" y="349" class="mu" font-size="13" font-weight="400" text-anchor="start">Claude Code, no pack</text>
+<rect class="off" x="300" y="336" width="274.6" height="16" rx="3"/>
+<text x="582.633431085044" y="349" class="fg" font-size="13" font-weight="400" text-anchor="start">10.4 min</text>
+<text x="28" y="375" class="mu" font-size="13" font-weight="400" text-anchor="start">Codex CLI + Lanewright</text>
+<rect class="on" x="300" y="362" width="450.0" height="16" rx="3"/>
+<text x="758.0" y="375" class="fg" font-size="13" font-weight="400" text-anchor="start">17.1 min</text>
+<text x="28" y="401" class="mu" font-size="13" font-weight="400" text-anchor="start">Codex CLI, no pack</text>
+<rect class="off" x="300" y="388" width="244.1" height="16" rx="3"/>
+<text x="552.1348973607038" y="401" class="fg" font-size="13" font-weight="400" text-anchor="start">9.2 min</text>
+</svg>
