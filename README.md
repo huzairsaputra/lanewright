@@ -8,6 +8,8 @@
 <p align="center"><strong>Scrum sprints for AI coding agent teams.</strong><br>
 Every role in its own lane, every handoff through a reviewed, CI-gated merge request.</p>
 
+<p align="center"><a href="https://www.agensi.io/skills/lanewright-sprint-workflow-for-ai-coding-agent-teams"><img src="brand/agensi-badge.svg" height="34" alt="Lanewright: sprint workflow for AI coding agent teams on Agensi"></a></p>
+
 <p align="center">
   <img src="bench/img/fair-hero.svg" width="880" alt="Lanewright fair benchmark: 6 of 6 runs met every checked Definition-of-Done item with the pack, 3 of 6 without; 26 of 26 merges after a green CI run on the PR head in all 12 runs; mean Claude cost per sprint $5.49 with the pack and $3.55 without; $3.37 with the pack's cost settings, 3 of 3 complete.">
 </p>
