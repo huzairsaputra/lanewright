@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 456" width="820" height="456" role="img" aria-label="Wall time and cost of seven end-to-end runs">
 <style>
   .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
-  .lw{fill:#111111} .sk{fill:#8A8A8A} .pl{fill:#C9C9C9}
+  .lw{fill:#0072B2} .sk{fill:#E69F00} .pl{fill:#009E73}
   text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
   @media (prefers-color-scheme: dark){
     .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
-    .lw{fill:#F2F2F2} .sk{fill:#9A9A9A} .pl{fill:#6E6E6E}
+    .lw{fill:#56B4E9} .sk{fill:#F0B323} .pl{fill:#2BC59A}
   }
 </style>
 <rect class="bg" width="820" height="456" rx="12"/>

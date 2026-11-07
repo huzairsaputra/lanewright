@@ -11,11 +11,11 @@ H = TOP + ROW * len(runs) + 56
 scale = (W - LEFT - RIGHT) / max(r["wall_seconds"] for r in runs)
 STYLE = """<style>
   .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
-  .lw{fill:#111111} .sk{fill:#8A8A8A} .pl{fill:#C9C9C9}
+  .lw{fill:#0072B2} .sk{fill:#E69F00} .pl{fill:#009E73}
   text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
   @media (prefers-color-scheme: dark){
     .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
-    .lw{fill:#F2F2F2} .sk{fill:#9A9A9A} .pl{fill:#6E6E6E}
+    .lw{fill:#56B4E9} .sk{fill:#F0B323} .pl{fill:#2BC59A}
   }
 </style>"""
 KIND = {"Lanewright": "lw", "scrum-kit": "sk", "Lanewright Planning": "pl"}
