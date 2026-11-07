@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "note": "Three headless implementation runs, one process each, API key only, model claude-opus-5-5. Prompt caching is applied by the Claude Code CLI itself; cache tokens are recorded per run.",
+  "note": "Four headless implementation runs, one process each, API key only, model claude-opus-5-5. Prompt caching is applied by the Claude Code CLI itself; cache tokens are recorded per run.",
   "runs": [
     {
       "id": "fix-planning",
@@ -47,7 +47,7 @@
     {
       "id": "fix-scrumkit-140",
       "product": "scrum-kit",
-      "step": "report gate + local mode (v1.4.0, in review)",
+      "step": "report gate + local mode (v1.4.0, released)",
       "what": "Backlog report gate with fingerprint and local mode for hotfix, release and kit-init",
       "date": "2026-11-07",
       "wall_seconds": 573,
@@ -64,11 +64,32 @@
       "model": "claude-opus-5-5",
       "exit_code": 0,
       "is_error": false
+    },
+    {
+      "id": "fix-lanewright-101",
+      "product": "Lanewright",
+      "step": "paid pack fixes (v1.0.1)",
+      "what": "The paid pack's own fixes for the same classes of findings; details stay with the product",
+      "date": "2026-11-07",
+      "wall_seconds": 810,
+      "duration_ms": 805711,
+      "duration_api_ms": 720380,
+      "num_turns": 135,
+      "total_cost_usd": 4.2637,
+      "input_tokens": 138,
+      "output_tokens": 72352,
+      "thinking_tokens": 29550,
+      "cache_read_tokens": 9074634,
+      "cache_write_tokens": 200245,
+      "budget_cap_usd": 8,
+      "model": "claude-opus-5-5",
+      "exit_code": 0,
+      "is_error": false
     }
   ],
   "total": {
-    "wall_seconds": 2194,
-    "total_cost_usd": 8.7677,
-    "num_turns": 219
+    "wall_seconds": 3004,
+    "total_cost_usd": 13.0314,
+    "num_turns": 354
   }
 }

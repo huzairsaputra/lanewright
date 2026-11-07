@@ -91,8 +91,9 @@ with/without comparison was not fair) and the check run of the fixes
 
 **Latest test (7 Nov 2026):** a one-line brief taken through the free
 [Lanewright Planning](https://github.com/huzairsaputra/lanewright-planning) skills and into a sprint dry run
-with Lanewright and with scrum-kit. Seven runs, 2336 s and $6.72 in total, followed by three fix runs
-(2194 s, $8.77) that turned the findings into released versions of the free tools. Every run's time and
+with Lanewright and with scrum-kit. Seven runs, 2336 s and $6.72 in total, followed by four fix runs
+(3004 s, $13.03) that turned the findings into released versions of the free tools and an update of
+the paid pack. Every run's time and
 cost is recorded: [`bench/planning-2026-11-07/`](bench/planning-2026-11-07/README.md).
 
 **Limits.** Six runs per side on one small repository, on Windows: read the numbers as a direction,

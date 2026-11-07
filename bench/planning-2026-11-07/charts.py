@@ -7,7 +7,7 @@ from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 NAME = sys.argv[1] if len(sys.argv) > 1 else "results"  # "results" -> runs.svg, "fixes" -> fixes.svg
-TITLE = {"results": "Run time of the seven end-to-end runs", "fixes": "Run time of the three fix runs"}[NAME]
+TITLE = {"results": "Run time of the seven end-to-end runs", "fixes": "Run time of the four fix runs"}[NAME]
 runs = json.load(open(os.path.join(HERE, NAME + ".json"), encoding="utf-8"))["runs"]
 W, ROW, TOP, LEFT, RIGHT = 820, 44, 92, 290, 190
 H = TOP + ROW * len(runs) + 56
