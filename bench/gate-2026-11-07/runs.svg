@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 868" width="860" height="868" role="img" aria-label="Wall time and cost of seven end-to-end runs">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .lw{fill:#0072B2} .sk{fill:#E69F00} .pl{fill:#009E73}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .lw{fill:#56B4E9} .sk{fill:#F0B323} .pl{fill:#2BC59A}
+  }
+</style>
+<rect class="bg" width="860" height="868" rx="12"/>
+<text x="24" y="38" class="fg" font-size="20" font-weight="600" text-anchor="start">Run time of the 18 runs of the second test</text>
+<text x="24" y="60" class="mu" font-size="12" font-weight="400" text-anchor="start">Wall seconds per run; cost of every process a run started (US dollars). claude-opus-5-5, 7 Nov 2026.</text>
+<line x1="24" x2="836" y1="84" y2="84" class="ln"/>
+<text x="24" y="106" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-1-setup</text>
+<text x="24" y="122" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / setup</text>
+<rect x="310" y="92" width="68.2" height="22" rx="3" class="lw"/>
+<text x="386.24644549763036" y="108" class="fg" font-size="13" font-weight="600" text-anchor="start">280 s</text>
+<text x="836" y="108" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.52 · 28 turns</text>
+<line x1="24" x2="836" y1="124" y2="124" class="ln"/>
+<text x="24" y="146" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-2-chain</text>
+<text x="24" y="162" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / intake+srs+sprint-planner</text>
+<rect x="310" y="132" width="137.0" height="22" rx="3" class="pl"/>
+<text x="454.980365605958" y="148" class="fg" font-size="13" font-weight="600" text-anchor="start">562 s</text>
+<text x="836" y="148" class="mu" font-size="12" font-weight="400" text-anchor="end">$1.92 · 26 turns</text>
+<line x1="24" x2="836" y1="164" y2="164" class="ln"/>
+<text x="24" y="186" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-3-check</text>
+<text x="24" y="202" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / backlog-check</text>
+<rect x="310" y="172" width="44.6" height="22" rx="3" class="pl"/>
+<text x="362.6039268788084" y="188" class="fg" font-size="13" font-weight="600" text-anchor="start">183 s</text>
+<text x="836" y="188" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.70 · 16 turns</text>
+<line x1="24" x2="836" y1="204" y2="204" class="ln"/>
+<text x="24" y="226" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-g-ok</text>
+<text x="24" y="242" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run: ok</text>
+<rect x="310" y="212" width="33.4" height="22" rx="3" class="lw"/>
+<text x="351.39201083276913" y="228" class="fg" font-size="13" font-weight="600" text-anchor="start">137 s</text>
+<text x="836" y="228" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.46 · 24 turns</text>
+<line x1="24" x2="836" y1="244" y2="244" class="ln"/>
+<text x="24" y="266" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-g-stale</text>
+<text x="24" y="282" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run: stale</text>
+<rect x="310" y="252" width="23.6" height="22" rx="3" class="lw"/>
+<text x="341.64251861882195" y="268" class="fg" font-size="13" font-weight="600" text-anchor="start">97 s</text>
+<text x="836" y="268" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.36 · 18 turns</text>
+<line x1="24" x2="836" y1="284" y2="284" class="ln"/>
+<text x="24" y="306" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-g-notready</text>
+<text x="24" y="322" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run: notready</text>
+<rect x="310" y="292" width="20.7" height="22" rx="3" class="lw"/>
+<text x="338.71767095463775" y="308" class="fg" font-size="13" font-weight="600" text-anchor="start">85 s</text>
+<text x="836" y="308" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.29 · 12 turns</text>
+<line x1="24" x2="836" y1="324" y2="324" class="ln"/>
+<text x="24" y="346" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-g-unsigned</text>
+<text x="24" y="362" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run: unsigned</text>
+<rect x="310" y="332" width="27.3" height="22" rx="3" class="lw"/>
+<text x="345.29857819905214" y="348" class="fg" font-size="13" font-weight="600" text-anchor="start">112 s</text>
+<text x="836" y="348" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.35 · 16 turns</text>
+<line x1="24" x2="836" y1="364" y2="364" class="ln"/>
+<text x="24" y="386" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-g-none</text>
+<text x="24" y="402" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run: none</text>
+<rect x="310" y="372" width="18.5" height="22" rx="3" class="lw"/>
+<text x="336.52403520649966" y="388" class="fg" font-size="13" font-weight="600" text-anchor="start">76 s</text>
+<text x="836" y="388" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.27 · 13 turns</text>
+<line x1="24" x2="836" y1="404" y2="404" class="ln"/>
+<text x="24" y="426" class="fg" font-size="13" font-weight="600" text-anchor="start">lw2-5-full</text>
+<text x="24" y="442" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / full sprint 1, local mode</text>
+<rect x="310" y="412" width="284.9" height="22" rx="3" class="lw"/>
+<text x="602.9289099526067" y="428" class="fg" font-size="13" font-weight="600" text-anchor="start">1169 s</text>
+<text x="836" y="428" class="mu" font-size="12" font-weight="400" text-anchor="end">$4.53 · 95 turns</text>
+<line x1="24" x2="836" y1="444" y2="444" class="ln"/>
+<text x="24" y="466" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-1-kitinit</text>
+<text x="24" y="482" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / setup</text>
+<rect x="310" y="452" width="29.2" height="22" rx="3" class="sk"/>
+<text x="347.2484766418416" y="468" class="fg" font-size="13" font-weight="600" text-anchor="start">120 s</text>
+<text x="836" y="468" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.39 · 12 turns</text>
+<line x1="24" x2="836" y1="484" y2="484" class="ln"/>
+<text x="24" y="506" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-2-planner</text>
+<text x="24" y="522" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / sprint-planner</text>
+<rect x="310" y="492" width="129.9" height="22" rx="3" class="pl"/>
+<text x="447.9119837508463" y="508" class="fg" font-size="13" font-weight="600" text-anchor="start">533 s</text>
+<text x="836" y="508" class="mu" font-size="12" font-weight="400" text-anchor="end">$1.52 · 22 turns</text>
+<line x1="24" x2="836" y1="524" y2="524" class="ln"/>
+<text x="24" y="546" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-3-check</text>
+<text x="24" y="562" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / backlog-check</text>
+<rect x="310" y="532" width="80.4" height="22" rx="3" class="pl"/>
+<text x="398.43331076506433" y="548" class="fg" font-size="13" font-weight="600" text-anchor="start">330 s</text>
+<text x="836" y="548" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.75 · 15 turns</text>
+<line x1="24" x2="836" y1="564" y2="564" class="ln"/>
+<text x="24" y="586" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-g-ok</text>
+<text x="24" y="602" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run: ok</text>
+<rect x="310" y="572" width="20.0" height="22" rx="3" class="sk"/>
+<text x="337.98645903859176" y="588" class="fg" font-size="13" font-weight="600" text-anchor="start">82 s</text>
+<text x="836" y="588" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.30 · 12 turns</text>
+<line x1="24" x2="836" y1="604" y2="604" class="ln"/>
+<text x="24" y="626" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-g-stale</text>
+<text x="24" y="642" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run: stale</text>
+<rect x="310" y="612" width="11.5" height="22" rx="3" class="sk"/>
+<text x="329.4556533513879" y="628" class="fg" font-size="13" font-weight="600" text-anchor="start">47 s</text>
+<text x="836" y="628" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.19 · 7 turns</text>
+<line x1="24" x2="836" y1="644" y2="644" class="ln"/>
+<text x="24" y="666" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-g-notready</text>
+<text x="24" y="682" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run: notready</text>
+<rect x="310" y="652" width="11.0" height="22" rx="3" class="sk"/>
+<text x="328.9681787406906" y="668" class="fg" font-size="13" font-weight="600" text-anchor="start">45 s</text>
+<text x="836" y="668" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.21 · 7 turns</text>
+<line x1="24" x2="836" y1="684" y2="684" class="ln"/>
+<text x="24" y="706" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-g-unsigned</text>
+<text x="24" y="722" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run: unsigned</text>
+<rect x="310" y="692" width="11.5" height="22" rx="3" class="sk"/>
+<text x="329.4556533513879" y="708" class="fg" font-size="13" font-weight="600" text-anchor="start">47 s</text>
+<text x="836" y="708" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.19 · 6 turns</text>
+<line x1="24" x2="836" y1="724" y2="724" class="ln"/>
+<text x="24" y="746" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-g-none</text>
+<text x="24" y="762" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run: none</text>
+<rect x="310" y="732" width="11.7" height="22" rx="3" class="sk"/>
+<text x="329.6993906567366" y="748" class="fg" font-size="13" font-weight="600" text-anchor="start">48 s</text>
+<text x="836" y="748" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.19 · 7 turns</text>
+<line x1="24" x2="836" y1="764" y2="764" class="ln"/>
+<text x="24" y="786" class="fg" font-size="13" font-weight="600" text-anchor="start">sk2-5-full</text>
+<text x="24" y="802" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / full sprint 1, local mode</text>
+<rect x="310" y="772" width="360.0" height="22" rx="3" class="sk"/>
+<text x="678.0" y="788" class="fg" font-size="13" font-weight="600" text-anchor="start">1477 s</text>
+<text x="836" y="788" class="mu" font-size="12" font-weight="400" text-anchor="end">$6.87 · 55 turns</text>
+<rect x="24" y="829" width="14" height="14" rx="2" class="lw"/>
+<text x="46" y="841" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright</text>
+<rect x="174" y="829" width="14" height="14" rx="2" class="sk"/>
+<text x="196" y="841" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit</text>
+<rect x="324" y="829" width="14" height="14" rx="2" class="pl"/>
+<text x="346" y="841" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning skills</text>
+<text x="24" y="858" class="mu" font-size="11" font-weight="400" text-anchor="start">Full data (API time, tokens, thinking tokens): results.json</text>
+</svg>

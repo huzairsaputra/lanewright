@@ -96,6 +96,10 @@ with Lanewright and with scrum-kit. Seven runs, 2336 s and $6.72 in total, follo
 the paid pack. Every run's time and
 cost is recorded: [`bench/planning-2026-11-07/`](bench/planning-2026-11-07/README.md).
 
+**Second test (7 Nov 2026):** the released versions checked again, now with the new readiness gate (10 of
+10 gate scenarios behaved as designed in both workflow tools) and one full sprint per tool. 18 runs,
+5430 s of run time, $19.99: [`bench/gate-2026-11-07/`](bench/gate-2026-11-07/README.md).
+
 **Limits.** Six runs per side on one small repository, on Windows: read the numbers as a direction,
 not a precise rate. The records use the working name of the time, scrum-kit; the pack was renamed
 Lanewright on 2026-11-06.
