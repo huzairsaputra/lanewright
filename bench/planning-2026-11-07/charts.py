@@ -1,11 +1,14 @@
-"""Draw runs.svg from results.json (stdlib only). Run: py -I charts.py
+"""Draw runs.svg (py -I charts.py) or fixes.svg (py -I charts.py fixes) from results.json / fixes.json (stdlib only).
 The SVG follows the reader's light or dark theme through an inner prefers-color-scheme rule."""
 import json
 import os
+import sys
 from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-runs = json.load(open(os.path.join(HERE, "results.json"), encoding="utf-8"))["runs"]
+NAME = sys.argv[1] if len(sys.argv) > 1 else "results"  # "results" -> runs.svg, "fixes" -> fixes.svg
+TITLE = {"results": "Run time of the seven end-to-end runs", "fixes": "Run time of the three fix runs"}[NAME]
+runs = json.load(open(os.path.join(HERE, NAME + ".json"), encoding="utf-8"))["runs"]
 W, ROW, TOP, LEFT, RIGHT = 820, 44, 92, 290, 190
 H = TOP + ROW * len(runs) + 56
 scale = (W - LEFT - RIGHT) / max(r["wall_seconds"] for r in runs)
@@ -26,7 +29,7 @@ def t(x, y, s, cls="fg", size=13, weight=400, anchor="start"):
             f'text-anchor="{anchor}">{escape(str(s))}</text>')
 
 
-body = [t(24, 38, "Run time of the seven end-to-end runs", size=20, weight=600),
+body = [t(24, 38, TITLE, size=20, weight=600),
         t(24, 60, "Wall seconds per run, cost in US dollars. One headless process each, claude-opus-5-5, 7 Nov 2026.", "mu", 12)]
 for i, r in enumerate(runs):
     y = TOP + i * ROW
@@ -42,10 +45,10 @@ for j, (label, cls) in enumerate((("Lanewright", "lw"), ("scrum-kit", "sk"), ("L
     x = 24 + j * 150
     body.append(f'<rect x="{x}" y="{y + 7}" width="14" height="14" rx="2" class="{cls}"/>')
     body.append(t(x + 22, y + 19, label, "mu", 11))
-body.append(t(24, y + 36, "Full data (API time, tokens, thinking tokens): results.json", "mu", 11))
+body.append(t(24, y + 36, "Full data (API time, tokens, thinking tokens): " + NAME + ".json", "mu", 11))
 svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
        f'aria-label="Wall time and cost of seven end-to-end runs">\n{STYLE}\n<rect class="bg" width="{W}" height="{H}" rx="12"/>\n'
        + "\n".join(body) + "\n</svg>\n")
-with open(os.path.join(HERE, "runs.svg"), "w", encoding="utf-8", newline="\n") as f:
+with open(os.path.join(HERE, "runs.svg" if NAME == "results" else NAME + ".svg"), "w", encoding="utf-8", newline="\n") as f:
     f.write(svg)
-print("runs.svg", W, H)
+print(NAME, W, H)

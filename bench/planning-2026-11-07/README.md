@@ -100,6 +100,36 @@ had to make and wrote down.
 The Lanewright run met the same classes of problem. Its details stay with the product and are fixed
 there; this page lists the free tools' findings so they can be checked.
 
+## After the test: the fixes
+
+The same day, the findings above were handed to three more headless runs (same setup, API key only,
+`claude-opus-5-5`), each told to change as little as possible, add tests for every new behaviour, run
+the checks and report. The author then re-ran the tests and the free scanner on each result before
+anything was merged.
+
+![Wall time and cost of the three fix runs](fixes.svg)
+
+(PNG: [fixes.png](fixes.png). Raw numbers: [fixes.json](fixes.json).)
+
+| Run | What | Wall | API | Turns | Cost | Result |
+|---|---|---|---|---|---|---|
+| fix-planning | findings 1-5 in the planning skills, plus a SHA-256 fingerprint of every checked backlog | 758 s | 679 s | 83 | $2.93 | 42 tests (5 new); released as [Lanewright Planning v1.0.1](https://github.com/huzairsaputra/lanewright-planning/releases/tag/v1.0.1) |
+| fix-scrumkit | findings 6-11 in scrum-kit | 863 s | 728 s | 83 | $3.10 | 44 tests (7 new); released as [scrum-kit v1.3.0](https://github.com/huzairsaputra/scrum-kit/releases/tag/v1.3.0) |
+| fix-scrumkit-140 | readiness-report gate (reads the fingerprint) and local mode for hotfix, release and kit-init | 573 s | 493 s | 53 | $2.74 | 48 tests (4 new); in review for scrum-kit 1.4.0 |
+| **Total** | | **2194 s** | | **219** | **$8.77** | |
+
+- **Tests plus fixes: 4530 s and $15.48** from the one-line brief to released fixes (7 test runs 2336 s
+  and $6.72; 3 fix runs 2194 s and $8.77).
+- **Cross-check of the gate.** The fingerprint written by the Backlog Check script and the one computed
+  by the new scrum-kit script gave the same SHA-256 on a real backlog from the test, which is what lets
+  scrum-kit tell a stale report from a current one.
+- **The CLI caches by itself.** In each fix run 96-97% of the input tokens were read from cache
+  (4.4 M, 5.4 M and 4.5 M cache-read tokens against about 150-160 k written), so these costs already
+  include the savings. Cache-write and cache-read tokens are recorded per run in `fixes.json`.
+- **Checks the author repeated, not just the agent:** unit tests, script self-tests, the build, the
+  plugin validator, and a scan of the public repositories for names, paths, keys and text copied from the
+  paid package (two generic `gh pr merge` and file-list lines in scrum-kit are known and harmless).
+
 ## Limits
 
 - One invented project, one run per step, one model. Times depend on the machine, the network and the
