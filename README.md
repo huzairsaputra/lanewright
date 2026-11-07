@@ -89,6 +89,11 @@ one-sprint benchmark ([`bench/2026-11-05-trial.md`](bench/2026-11-05-trial.md), 
 with/without comparison was not fair) and the check run of the fixes
 ([`bench/2026-11-05-check.md`](bench/2026-11-05-check.md)).
 
+**Latest test (7 Nov 2026):** a one-line brief taken through the free
+[Lanewright Planning](https://github.com/huzairsaputra/lanewright-planning) skills and into a sprint dry run
+with Lanewright and with scrum-kit. Seven runs, 2336 s and $6.72 in total, with every run's time and
+cost recorded: [`bench/planning-2026-11-07/`](bench/planning-2026-11-07/README.md).
+
 **Limits.** Six runs per side on one small repository, on Windows: read the numbers as a direction,
 not a precise rate. The records use the working name of the time, scrum-kit; the pack was renamed
 Lanewright on 2026-11-06.

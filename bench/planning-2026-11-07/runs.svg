@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 456" width="820" height="456" role="img" aria-label="Wall time and cost of seven end-to-end runs">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .lw{fill:#111111} .sk{fill:#8A8A8A} .pl{fill:#C9C9C9}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .lw{fill:#F2F2F2} .sk{fill:#9A9A9A} .pl{fill:#6E6E6E}
+  }
+</style>
+<rect class="bg" width="820" height="456" rx="12"/>
+<text x="24" y="38" class="fg" font-size="20" font-weight="600" text-anchor="start">Run time of the seven end-to-end runs</text>
+<text x="24" y="60" class="mu" font-size="12" font-weight="400" text-anchor="start">Wall seconds per run, cost in US dollars. One headless process each, claude-opus-5-5, 7 Nov 2026.</text>
+<line x1="24" x2="796" y1="84" y2="84" class="ln"/>
+<text x="24" y="106" class="fg" font-size="13" font-weight="600" text-anchor="start">lw-1-setup</text>
+<text x="24" y="122" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / setup</text>
+<rect x="290" y="92" width="138.1" height="22" rx="3" class="lw"/>
+<text x="436.09384164222877" y="108" class="fg" font-size="13" font-weight="600" text-anchor="start">277 s</text>
+<text x="796" y="108" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.41 · 21 turns</text>
+<line x1="24" x2="796" y1="128" y2="128" class="ln"/>
+<text x="24" y="150" class="fg" font-size="13" font-weight="600" text-anchor="start">lw-2-chain</text>
+<text x="24" y="166" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / intake+srs+sprint-planner</text>
+<rect x="290" y="136" width="340.0" height="22" rx="3" class="pl"/>
+<text x="638.0" y="152" class="fg" font-size="13" font-weight="600" text-anchor="start">682 s</text>
+<text x="796" y="152" class="mu" font-size="12" font-weight="400" text-anchor="end">$2.33 · 26 turns</text>
+<line x1="24" x2="796" y1="172" y2="172" class="ln"/>
+<text x="24" y="194" class="fg" font-size="13" font-weight="600" text-anchor="start">lw-3-check</text>
+<text x="24" y="210" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / backlog-check</text>
+<rect x="290" y="180" width="167.5" height="22" rx="3" class="pl"/>
+<text x="465.5073313782991" y="196" class="fg" font-size="13" font-weight="600" text-anchor="start">336 s</text>
+<text x="796" y="196" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.76 · 18 turns</text>
+<line x1="24" x2="796" y1="216" y2="216" class="ln"/>
+<text x="24" y="238" class="fg" font-size="13" font-weight="600" text-anchor="start">lw-4-sprint</text>
+<text x="24" y="254" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / sprint-dry-run</text>
+<rect x="290" y="224" width="100.2" height="22" rx="3" class="lw"/>
+<text x="398.20527859237535" y="240" class="fg" font-size="13" font-weight="600" text-anchor="start">201 s</text>
+<text x="796" y="240" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.73 · 26 turns</text>
+<line x1="24" x2="796" y1="260" y2="260" class="ln"/>
+<text x="24" y="282" class="fg" font-size="13" font-weight="600" text-anchor="start">sk-1-kitinit</text>
+<text x="24" y="298" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / setup</text>
+<rect x="290" y="268" width="57.8" height="22" rx="3" class="sk"/>
+<text x="355.8299120234604" y="284" class="fg" font-size="13" font-weight="600" text-anchor="start">116 s</text>
+<text x="796" y="284" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.44 · 13 turns</text>
+<line x1="24" x2="796" y1="304" y2="304" class="ln"/>
+<text x="24" y="326" class="fg" font-size="13" font-weight="600" text-anchor="start">sk-2-planner</text>
+<text x="24" y="342" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning / sprint-planner</text>
+<rect x="290" y="312" width="295.6" height="22" rx="3" class="pl"/>
+<text x="593.6304985337243" y="328" class="fg" font-size="13" font-weight="600" text-anchor="start">593 s</text>
+<text x="796" y="328" class="mu" font-size="12" font-weight="400" text-anchor="end">$1.64 · 18 turns</text>
+<line x1="24" x2="796" y1="348" y2="348" class="ln"/>
+<text x="24" y="370" class="fg" font-size="13" font-weight="600" text-anchor="start">sk-4-sprint</text>
+<text x="24" y="386" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / sprint-dry-run</text>
+<rect x="290" y="356" width="65.3" height="22" rx="3" class="sk"/>
+<text x="363.30791788856305" y="372" class="fg" font-size="13" font-weight="600" text-anchor="start">131 s</text>
+<text x="796" y="372" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.40 · 14 turns</text>
+<rect x="24" y="417" width="14" height="14" rx="2" class="lw"/>
+<text x="46" y="429" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright</text>
+<rect x="174" y="417" width="14" height="14" rx="2" class="sk"/>
+<text x="196" y="429" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit</text>
+<rect x="324" y="417" width="14" height="14" rx="2" class="pl"/>
+<text x="346" y="429" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright Planning skills</text>
+<text x="24" y="446" class="mu" font-size="11" font-weight="400" text-anchor="start">Full data (API time, tokens, thinking tokens): results.json</text>
+</svg>
