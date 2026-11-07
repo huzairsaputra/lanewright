@@ -100,6 +100,12 @@ cost is recorded: [`bench/planning-2026-11-07/`](bench/planning-2026-11-07/READM
 10 gate scenarios behaved as designed in both workflow tools) and one full sprint per tool. 18 runs,
 5430 s of run time, $19.99: [`bench/gate-2026-11-07/`](bench/gate-2026-11-07/README.md).
 
+**Third test (7-8 Nov 2026):** the contract for approving "not applicable" Definition-of-Done items,
+checked with the released Planning 1.0.2, scrum-kit 1.4.1 and Lanewright 1.0.1: six gate dry runs read it
+correctly, and in two full sprints the integration branch stayed out of the base branch while an approval
+was pending. 12 API runs (3082 s, $8.79) and two sprints on the subscription (6178 s, $23.94 notional):
+[`bench/verifikasi-2026-11-08/`](bench/verifikasi-2026-11-08/README.md).
+
 **Limits.** Six runs per side on one small repository, on Windows: read the numbers as a direction,
 not a precise rate. The records use the working name of the time, scrum-kit; the pack was renamed
 Lanewright on 2026-11-06.

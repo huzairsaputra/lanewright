@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 708" width="860" height="708" role="img" aria-label="Wall time and cost of 14 end-to-end runs">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .lw{fill:#0072B2} .sk{fill:#E69F00} .pl{fill:#009E73}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .lw{fill:#56B4E9} .sk{fill:#F0B323} .pl{fill:#2BC59A}
+  }
+</style>
+<rect class="bg" width="860" height="708" rx="12"/>
+<text x="24" y="38" class="fg" font-size="20" font-weight="600" text-anchor="start">Run time of the 14 runs of the third test</text>
+<text x="24" y="60" class="mu" font-size="12" font-weight="400" text-anchor="start">Wall seconds per run; cost of every process a run started (US dollars). claude-opus-5-5, 7-8 Nov 2026. Sprints on the subscription: notional list price.</text>
+<line x1="24" x2="836" y1="84" y2="84" class="ln"/>
+<text x="24" y="106" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-1-setup</text>
+<text x="24" y="122" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / setup</text>
+<rect x="310" y="92" width="10.3" height="22" rx="3" class="lw"/>
+<text x="328.3186097031137" y="108" class="fg" font-size="13" font-weight="600" text-anchor="start">171 s</text>
+<text x="836" y="108" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.54 · 26 turns</text>
+<line x1="24" x2="836" y1="124" y2="124" class="ln"/>
+<text x="24" y="146" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-2-chain</text>
+<text x="24" y="162" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / planning chain</text>
+<rect x="310" y="132" width="40.4" height="22" rx="3" class="lw"/>
+<text x="358.3692976104272" y="148" class="fg" font-size="13" font-weight="600" text-anchor="start">669 s</text>
+<text x="836" y="148" class="mu" font-size="12" font-weight="400" text-anchor="end">$2.30 · 29 turns</text>
+<line x1="24" x2="836" y1="164" y2="164" class="ln"/>
+<text x="24" y="186" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-3-check</text>
+<text x="24" y="202" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / backlog check</text>
+<rect x="310" y="172" width="19.3" height="22" rx="3" class="lw"/>
+<text x="337.309678976587" y="188" class="fg" font-size="13" font-weight="600" text-anchor="start">320 s</text>
+<text x="836" y="188" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.78 · 19 turns</text>
+<line x1="24" x2="836" y1="204" y2="204" class="ln"/>
+<text x="24" y="226" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-g-nanone</text>
+<text x="24" y="242" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run</text>
+<rect x="310" y="212" width="13.0" height="22" rx="3" class="lw"/>
+<text x="331.0340333091962" y="228" class="fg" font-size="13" font-weight="600" text-anchor="start">216 s</text>
+<text x="836" y="228" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.35 · 15 turns</text>
+<line x1="24" x2="836" y1="244" y2="244" class="ln"/>
+<text x="24" y="266" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-g-naok</text>
+<text x="24" y="282" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run</text>
+<rect x="310" y="252" width="8.2" height="22" rx="3" class="lw"/>
+<text x="326.2066135650495" y="268" class="fg" font-size="13" font-weight="600" text-anchor="start">136 s</text>
+<text x="836" y="268" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.32 · 15 turns</text>
+<line x1="24" x2="836" y1="284" y2="284" class="ln"/>
+<text x="24" y="306" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-g-naold</text>
+<text x="24" y="322" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / gate dry run</text>
+<rect x="310" y="292" width="7.7" height="22" rx="3" class="lw"/>
+<text x="325.7238715906348" y="308" class="fg" font-size="13" font-weight="600" text-anchor="start">128 s</text>
+<text x="836" y="308" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.42 · 18 turns</text>
+<line x1="24" x2="836" y1="324" y2="324" class="ln"/>
+<text x="24" y="346" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-1-kitinit</text>
+<text x="24" y="362" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / setup</text>
+<rect x="310" y="332" width="6.6" height="22" rx="3" class="sk"/>
+<text x="324.6377021482018" y="348" class="fg" font-size="13" font-weight="600" text-anchor="start">110 s</text>
+<text x="836" y="348" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.37 · 10 turns</text>
+<line x1="24" x2="836" y1="364" y2="364" class="ln"/>
+<text x="24" y="386" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-2-planner</text>
+<text x="24" y="402" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / planning chain</text>
+<rect x="310" y="372" width="42.1" height="22" rx="3" class="sk"/>
+<text x="360.11923726768043" y="388" class="fg" font-size="13" font-weight="600" text-anchor="start">698 s</text>
+<text x="836" y="388" class="mu" font-size="12" font-weight="400" text-anchor="end">$1.97 · 25 turns</text>
+<line x1="24" x2="836" y1="404" y2="404" class="ln"/>
+<text x="24" y="426" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-3-check</text>
+<text x="24" y="442" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / backlog check</text>
+<rect x="310" y="412" width="18.9" height="22" rx="3" class="sk"/>
+<text x="336.88727974897415" y="428" class="fg" font-size="13" font-weight="600" text-anchor="start">313 s</text>
+<text x="836" y="428" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.78 · 19 turns</text>
+<line x1="24" x2="836" y1="444" y2="444" class="ln"/>
+<text x="24" y="466" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-g-nanone</text>
+<text x="24" y="482" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run</text>
+<rect x="310" y="452" width="6.6" height="22" rx="3" class="sk"/>
+<text x="324.5773594014" y="468" class="fg" font-size="13" font-weight="600" text-anchor="start">109 s</text>
+<text x="836" y="468" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.33 · 14 turns</text>
+<line x1="24" x2="836" y1="484" y2="484" class="ln"/>
+<text x="24" y="506" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-g-naok</text>
+<text x="24" y="522" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run</text>
+<rect x="310" y="492" width="6.6" height="22" rx="3" class="sk"/>
+<text x="324.6377021482018" y="508" class="fg" font-size="13" font-weight="600" text-anchor="start">110 s</text>
+<text x="836" y="508" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.32 · 11 turns</text>
+<line x1="24" x2="836" y1="524" y2="524" class="ln"/>
+<text x="24" y="546" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-g-naold</text>
+<text x="24" y="562" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / gate dry run</text>
+<rect x="310" y="532" width="6.2" height="22" rx="3" class="sk"/>
+<text x="324.1549601737871" y="548" class="fg" font-size="13" font-weight="600" text-anchor="start">102 s</text>
+<text x="836" y="548" class="mu" font-size="12" font-weight="400" text-anchor="end">$0.31 · 10 turns</text>
+<line x1="24" x2="836" y1="564" y2="564" class="ln"/>
+<text x="24" y="586" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-5-full-sub</text>
+<text x="24" y="602" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / full sprint</text>
+<rect x="310" y="572" width="122.8" height="22" rx="3" class="sk"/>
+<text x="440.79748974173305" y="588" class="fg" font-size="13" font-weight="600" text-anchor="start">2035 s</text>
+<text x="836" y="588" class="mu" font-size="12" font-weight="400" text-anchor="end">$6.06 notional · 130 turns</text>
+<line x1="24" x2="836" y1="604" y2="604" class="ln"/>
+<text x="24" y="626" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-5-full-sub</text>
+<text x="24" y="642" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / full sprint</text>
+<rect x="310" y="612" width="250.0" height="22" rx="3" class="lw"/>
+<text x="568.0" y="628" class="fg" font-size="13" font-weight="600" text-anchor="start">4143 s</text>
+<text x="836" y="628" class="mu" font-size="12" font-weight="400" text-anchor="end">$17.88 notional · 387 turns</text>
+<rect x="24" y="669" width="14" height="14" rx="2" class="lw"/>
+<text x="46" y="681" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright</text>
+<rect x="174" y="669" width="14" height="14" rx="2" class="sk"/>
+<text x="196" y="681" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit</text>
+<text x="24" y="698" class="mu" font-size="11" font-weight="400" text-anchor="start">Full data (API time, tokens, thinking tokens): results.json</text>
+</svg>
