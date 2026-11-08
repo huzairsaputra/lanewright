@@ -156,6 +156,16 @@ broke the contract:
 6. **A harness detail.** The scripted sign-off was an uncommitted edit of the report; the scrum-kit run
    assumed the product owner made it. In real use the signed report should be committed first.
 
+**What was done with them (8 Nov 2026).** Items 1, 2, 3 and 5 are fixed in
+[scrum-kit 1.4.2](https://github.com/huzairsaputra/scrum-kit/releases/tag/v1.4.2),
+[Lanewright Planning 1.0.3](https://github.com/huzairsaputra/lanewright-planning/releases/tag/v1.0.3)
+(item 1 only) and Lanewright 1.0.1, which has not been uploaded anywhere yet. Item 1 is fixed twice:
+the planning skills no longer write a semicolon inside a proposed name, and the workflow tools match a
+whole proposal before splitting, so reports written earlier still read correctly. Item 4 needed no
+change: scrum-kit already tells the orchestrator to retry with the plugin directory. Item 6 is a harness
+detail. The fixes were checked by the unit tests and the build of each product, **not** by another full
+sprint, so they are unproven in a run.
+
 ## Limits
 
 - One small invented repository, one run per cell: a direction, not a rate.
