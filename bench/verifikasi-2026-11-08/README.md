@@ -95,8 +95,8 @@ The limit is a usage quota of the subscription account, counted on the provider'
 and shared by every session of that account. It is not a fault of the tools and not a lack of local
 resources. Both sprints ran at the same time on the same account, next to the researcher's own
 interactive session, which together used up the five-hour allowance; the error was a 429
-`usage_limit_reached`. The pause is not part of the 442 s of the resumed part, but it is inside the 4143 s
-only as the 3701 s before it plus the 442 s after it; the waiting time between the two is not counted.
+`usage_limit_reached`. The 4143 s is the 3701 s before the stop plus the 442 s after the resume; the waiting time in between
+is not counted.
 
 ## Limits
 
