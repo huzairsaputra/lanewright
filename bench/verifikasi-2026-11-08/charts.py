@@ -6,8 +6,9 @@ import sys
 from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-NAME = "results"
-TITLE = "Run time of the 14 runs of the third test"
+NAME = sys.argv[1] if len(sys.argv) > 1 else "results"  # "results" or "results-approved"
+TITLE = ("Run time of the 14 runs of the third test" if NAME == "results"
+         else "Run time of the two sprints on the approved path")
 runs = json.load(open(os.path.join(HERE, NAME + ".json"), encoding="utf-8"))["runs"]
 W, ROW, TOP, LEFT, RIGHT = 860, 40, 92, 310, 300
 H = TOP + ROW * len(runs) + 56
@@ -47,7 +48,7 @@ for j, (label, cls) in enumerate((("Lanewright", "lw"), ("scrum-kit", "sk"))):
     body.append(t(x + 22, y + 19, label, "mu", 11))
 body.append(t(24, y + 36, "Full data (API time, tokens, thinking tokens): " + NAME + ".json", "mu", 11))
 svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-       f'aria-label="Wall time and cost of 14 end-to-end runs">\n{STYLE}\n<rect class="bg" width="{W}" height="{H}" rx="12"/>\n'
+       f'aria-label="Wall time and cost of {len(runs)} end-to-end runs">\n{STYLE}\n<rect class="bg" width="{W}" height="{H}" rx="12"/>\n'
        + "\n".join(body) + "\n</svg>\n")
 with open(os.path.join(HERE, "runs.svg" if NAME == "results" else NAME + ".svg"), "w", encoding="utf-8", newline="\n") as f:
     f.write(svg)

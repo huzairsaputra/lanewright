@@ -98,6 +98,64 @@ interactive session, which together used up the five-hour allowance; the error w
 `usage_limit_reached`. The 4143 s is the 3701 s before the stop plus the 442 s after the resume; the waiting time in between
 is not counted.
 
+## Addendum: the approved path (8 Nov 2026, later the same day)
+
+The two sprints above never had an approval, so they only showed the *held back* half of the contract.
+This addendum runs the other half: when the sign-off does approve the items a role marks "not
+applicable", the integration branch must merge into the base branch without anyone being asked.
+
+- **Setup.** One copy per tool of the repository left by the gate dry run (before any role ran), with the
+  readiness report's DoD field filled by a script with the names exactly as the report proposed them. For
+  scrum-kit that is one item whose name itself contains a semicolon; for Lanewright three names.
+- **Same standing answers and isolation as before**, one sprint at a time (not in parallel), on the
+  subscription, no API key.
+
+![Wall time and cost of the two sprints](results-approved.png)
+
+(Raw numbers: [results-approved.json](results-approved.json).)
+
+| | Lanewright | scrum-kit |
+|---|---|---|
+| Items merged into integration | 6 of 6 (17 SP) | 6 of 6 (17 SP) |
+| Roles' "not applicable" marks | 3 classes, all named in the sign-off | 1 class, named in the sign-off |
+| Approvals pending at the end | none | none |
+| Integration branch merged into the base branch | **yes**, one local merge commit | **yes**, one local merge commit |
+| Reviews | CLEAN on the first round, three of three | one NOT CLEAN round (2 major, 3 minor), then CLEAN; the other two CLEAN at once |
+| Tests at the end | 58 | 56 (4 Linux-only tests skipped on Windows; all 56 pass under WSL) |
+| Processes / wall time | 10 / 992 s | 14 / 2058 s |
+| Notional cost, all processes / turns | $6.04 / 152 | $9.81 / 209 |
+
+Both sprints read the approval correctly, recorded each "not applicable" line as approved in the sprint
+handover, and merged. The contract works on the approved path as well as on the held-back one.
+
+The Lanewright sprint cost about a third of the earlier one ($6.04 against $17.88), the scrum-kit sprint
+about 60 percent more ($9.81 against $6.06, with one extra review round). Do not read that as a
+comparison: one run per cell, and neither run here started the security auditor (see below), which is
+where the earlier Lanewright sprint spent four rounds.
+
+### What the runs reported as unclear
+
+These come from each sprint's own closing report and are listed so they can be fixed, not because they
+broke the contract:
+
+1. **A name with a semicolon.** The DoD field separates names with `;`, and the item proposed by the
+   report contains one. The scrum-kit run guessed that both halves belong to one item. The field needs a
+   different separator, or the proposals need names without `;`.
+2. **A misleading gate line (Lanewright).** The report's verdict was NOT READY while its sign-off was
+   filled. The handover template then says "continued without sign-off", which is wrong for that case.
+   The run also noted the rules apply the approved set whatever the verdict, and it did.
+3. **A reused integration branch (scrum-kit).** The integration branch already existed from preparation
+   and was not brought up to date with the base branch, so role worktrees saw an older sign-off line until
+   the final merge.
+4. **Child processes inherit the user's plugins.** The first dispatch of a role by plugin name failed
+   until the plugin directory was passed explicitly. This is the same isolation limit listed above.
+5. **No security audit in either sprint.** Both orchestrators decided against it, on the reasoning that
+   the author nickname is visible to the whole team by design, while the SRS of the test project calls it
+   personal data. The workflow leaves that call to the orchestrator. It probably explains why the
+   Lanewright sprint was far cheaper than the earlier one.
+6. **A harness detail.** The scripted sign-off was an uncommitted edit of the report; the scrum-kit run
+   assumed the product owner made it. In real use the signed report should be committed first.
+
 ## Limits
 
 - One small invented repository, one run per cell: a direction, not a rate.
@@ -108,8 +166,9 @@ is not counted.
 - The role processes started by either sprint inherited the researcher's settings; only the orchestrating
   process was isolated. The Lanewright sprint ran four security-audit rounds on its first item, which is
   probably why it cost about three times as much as the scrum-kit sprint; this test does not isolate that.
-- The "approval" in this test is always absent. Whether a real product owner decides well is a question for
-  the later study, not for this harness.
+- The "approval" is either always absent (the first two sprints) or always present and scripted (the
+  addendum). Whether a real product owner decides well is a question for the later study, not for this
+  harness.
 
 ## Run time and cost of this test
 
@@ -117,5 +176,6 @@ is not counted.
 |---|---|---|---|
 | 12 runs on an API key | 12 | 3082 | $8.79 |
 | 2 full sprints on the subscription | 2 | 6178 | not billed ($23.94 notional) |
+| 2 approved-path sprints on the subscription (addendum) | 2 | 3050 | not billed ($15.85 notional) |
 
 All figures recorded per run in [results.json](results.json); redraw the chart with `py -I charts.py`.

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-08",
+  "note": "Addendum to the third test: two full sprints on the Claude Code subscription (isolated from the user's settings, no API key), run one after the other, each in a copy of the repository left by the gate dry run with the sign-off already approving the proposed 'not applicable' Definition-of-Done items. cost_usd_all_processes is priced from every process's transcript at list price; it is not billed on the subscription. total_cost_usd is the report of the main process only.",
+  "runs": [
+    {
+      "id": "sk3-6-appr-sub", "product": "scrum-kit", "step": "full sprint, approved",
+      "what": "Six items from preparation to the merge into the base branch; the report approved the 'not applicable' item",
+      "billing": "subscription (notional list price)", "wall_seconds": 2058, "num_turns": 209,
+      "total_cost_usd": 3.3416, "cost_usd_all_processes": 9.81, "processes": 14, "interrupted": false
+    },
+    {
+      "id": "lw3-6-appr-sub", "product": "Lanewright", "step": "full sprint, approved",
+      "what": "Six items from preparation to the merge into the base branch; the report approved all three 'not applicable' classes",
+      "billing": "subscription (notional list price)", "wall_seconds": 992, "num_turns": 152,
+      "total_cost_usd": 2.3358, "cost_usd_all_processes": 6.04, "processes": 10, "interrupted": false
+    }
+  ]
+}

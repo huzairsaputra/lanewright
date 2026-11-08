@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 228" width="860" height="228" role="img" aria-label="Wall time and cost of 2 end-to-end runs">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .lw{fill:#0072B2} .sk{fill:#E69F00} .pl{fill:#009E73}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .lw{fill:#56B4E9} .sk{fill:#F0B323} .pl{fill:#2BC59A}
+  }
+</style>
+<rect class="bg" width="860" height="228" rx="12"/>
+<text x="24" y="38" class="fg" font-size="20" font-weight="600" text-anchor="start">Run time of the two sprints on the approved path</text>
+<text x="24" y="60" class="mu" font-size="12" font-weight="400" text-anchor="start">Wall seconds per run; cost of every process a run started (US dollars). claude-opus-5-5, 7-8 Nov 2026. Sprints on the subscription: notional list price.</text>
+<line x1="24" x2="836" y1="84" y2="84" class="ln"/>
+<text x="24" y="106" class="fg" font-size="13" font-weight="600" text-anchor="start">sk3-6-appr-sub</text>
+<text x="24" y="122" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit / full sprint, approved</text>
+<rect x="310" y="92" width="250.0" height="22" rx="3" class="sk"/>
+<text x="568.0" y="108" class="fg" font-size="13" font-weight="600" text-anchor="start">2058 s</text>
+<text x="836" y="108" class="mu" font-size="12" font-weight="400" text-anchor="end">$9.81 notional · 209 turns</text>
+<line x1="24" x2="836" y1="124" y2="124" class="ln"/>
+<text x="24" y="146" class="fg" font-size="13" font-weight="600" text-anchor="start">lw3-6-appr-sub</text>
+<text x="24" y="162" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright / full sprint, approved</text>
+<rect x="310" y="132" width="120.5" height="22" rx="3" class="lw"/>
+<text x="438.50534499514094" y="148" class="fg" font-size="13" font-weight="600" text-anchor="start">992 s</text>
+<text x="836" y="148" class="mu" font-size="12" font-weight="400" text-anchor="end">$6.04 notional · 152 turns</text>
+<rect x="24" y="189" width="14" height="14" rx="2" class="lw"/>
+<text x="46" y="201" class="mu" font-size="11" font-weight="400" text-anchor="start">Lanewright</text>
+<rect x="174" y="189" width="14" height="14" rx="2" class="sk"/>
+<text x="196" y="201" class="mu" font-size="11" font-weight="400" text-anchor="start">scrum-kit</text>
+<text x="24" y="218" class="mu" font-size="11" font-weight="400" text-anchor="start">Full data (API time, tokens, thinking tokens): results-approved.json</text>
+</svg>
