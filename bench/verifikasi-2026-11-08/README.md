@@ -91,9 +91,20 @@ The Lanewright sprint stopped once at the account's five-hour usage limit after 
 the same session from the handover and the git state and finished in 442 s without redoing finished items.
 The scrum-kit sprint ran uninterrupted.
 
+The limit is a usage quota of the subscription account, counted on the provider's side in model tokens
+and shared by every session of that account. It is not a fault of the tools and not a lack of local
+resources. Both sprints ran at the same time on the same account, next to the researcher's own
+interactive session, which together used up the five-hour allowance; the error was a 429
+`usage_limit_reached`. The pause is not part of the 442 s of the resumed part, but it is inside the 4143 s
+only as the 3701 s before it plus the 442 s after it; the waiting time between the two is not counted.
+
 ## Limits
 
 - One small invented repository, one run per cell: a direction, not a rate.
+- The two sprints shared one laptop and one account while they ran in parallel, so their wall times may
+  be inflated by competing for CPU and for the account's usage quota. This was not measured; compare the
+  two sprints with each other only as a direction. A study that compares conditions should run them one at
+  a time.
 - The role processes started by either sprint inherited the researcher's settings; only the orchestrating
   process was isolated. The Lanewright sprint ran four security-audit rounds on its first item, which is
   probably why it cost about three times as much as the scrum-kit sprint; this test does not isolate that.
