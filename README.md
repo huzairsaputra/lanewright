@@ -108,6 +108,10 @@ into the base branch without asking anyone. 12 API runs (3082 s, $8.79), two spr
 (6178 s, $23.94 notional) and two approved-path sprints (3050 s, $15.85 notional):
 [`bench/verifikasi-2026-11-08/`](bench/verifikasi-2026-11-08/README.md).
 
+**How many runs failed?** A tally of every run that was asked to deliver a whole job with the pack, and
+how each ended (22 runs, 20 finished, 2 stopped where a human decides, 1 interrupted by a usage limit and
+resumed), with what the tally does not show: [`bench/runs-with-the-pack.md`](bench/runs-with-the-pack.md).
+
 **Limits.** Six runs per side on one small repository, on Windows: read the numbers as a direction,
 not a precise rate. The records use the working name of the time, scrum-kit; the pack was renamed
 Lanewright on 2026-11-06.
