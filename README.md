@@ -30,6 +30,12 @@ in Claude Code (roles as parallel headless sessions with tool-level file locks) 
 that can run git and Python, such as Codex CLI (one session plays each role in turn).
 
 **Get it:** [Lanewright on Agensi](https://www.agensi.io/r/HUZAIRSAPUTRA?to=/skills/lanewright-sprint-workflow-for-ai-coding-agent-teams) (referral link).
+The current version is 1.0.1 (12 Nov 2026). It adds a readiness gate before each sprint, local mode for a
+repository without a remote, and a rule that a "not applicable" Definition-of-Done item needs the product
+owner's approval.
+**Free companion tools:** [Lanewright Planning](https://github.com/huzairsaputra/lanewright-planning), four
+MIT skills that take loose project input to an SRS, a weekly sprint plan and a human-approved backlog
+(Intake, SRS, Sprint Planner, Backlog Check). Their Agensi listings are in review.
 **Free alternative:** [scrum-kit](https://github.com/huzairsaputra/scrum-kit), the MIT Claude Code
 plugin Lanewright grew out of (commands and prompts in Bahasa Indonesia).
 
@@ -39,7 +45,7 @@ here.
 | Path | What it is |
 |---|---|
 | `bench/` | benchmark reports, prompts, per-run data, the scoring script and the chart script |
-| `brand/` | logo, mark, icon tiles and the logo rationale (`LOGO.md`) |
+| `brand/` | logo, mark, icon tiles (the blue tile is the icon used in publications) and the logo rationale (`LOGO.md`) |
 
 ## Numbers
 

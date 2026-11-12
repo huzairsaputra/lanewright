@@ -73,6 +73,12 @@ the geometry would drift, and a fully AI-generated logo is hard to protect as yo
 PNGs for the Agensi upload are rendered into `dist/listing-images/`. At 96 × 96, use an icon tile;
 the wordmark is too small to read at that size.
 
+## Icon of the paid pack in publications (decided 2026-11-13)
+
+Every publication of the paid Lanewright pack (its Agensi listing, posts, releases) uses the blue tile:
+`icon-tile-blue.svg`, rendered as `icon-blue-512.png`. The Agensi listing was switched to it on 2026-11-13. The free
+Lanewright Planning skills keep their own green tile; this decision does not change them.
+
 ## Don't
 
 - Don't turn the lanes horizontal or stagger them into steps (that is the dropped mark).
