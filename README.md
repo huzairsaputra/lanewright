@@ -121,7 +121,8 @@ into the base branch without asking anyone. 12 API runs (3082 s, $8.79), two spr
 without the pack, three runs each: 42 runs, 14.0 hours, pre-registered. On this task the pack still made the process
 complete (review verdicts and reports), but it did not reliably make the code more correct, and with `gpt-5.6-sol` it
 was much more expensive. A measurement fault in one DoD item is reported next to the frozen grader's numbers:
-[`bench/hard-2026-11-10/`](bench/hard-2026-11-10/README.md).
+[`bench/hard-2026-11-10/`](bench/hard-2026-11-10/README.md). Write-up:
+[I ran 42 more agent sprints on a harder task](https://dev.to/huzair_saputra/i-ran-42-more-agent-sprints-on-a-harder-task-heres-what-the-workflow-didnt-fix-33hj) (dev.to).
 
 **How many runs failed?** A tally of every run that was asked to deliver a whole job with the pack, and
 how each ended (22 runs, 20 finished, 2 stopped where a human decides, 1 interrupted by a usage limit and
