@@ -117,6 +117,12 @@ into the base branch without asking anyone. 12 API runs (3082 s, $8.79), two spr
 (6178 s, $23.94 notional) and two approved-path sprints (3050 s, $15.85 notional):
 [`bench/verifikasi-2026-11-08/`](bench/verifikasi-2026-11-08/README.md).
 
+**Hard benchmark (10-12 Nov 2026):** a harder four-item sprint, seven models in Claude Code and Codex CLI, with and
+without the pack, three runs each: 42 runs, 14.0 hours, pre-registered. On this task the pack still made the process
+complete (review verdicts and reports), but it did not reliably make the code more correct, and with `gpt-5.6-sol` it
+was much more expensive. A measurement fault in one DoD item is reported next to the frozen grader's numbers:
+[`bench/hard-2026-11-10/`](bench/hard-2026-11-10/README.md).
+
 **How many runs failed?** A tally of every run that was asked to deliver a whole job with the pack, and
 how each ended (22 runs, 20 finished, 2 stopped where a human decides, 1 interrupted by a usage limit and
 resumed), with what the tally does not show: [`bench/runs-with-the-pack.md`](bench/runs-with-the-pack.md).
