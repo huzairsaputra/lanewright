@@ -78,14 +78,18 @@ every process.
 | | Pack, Opus everywhere | **Pack, cost settings** | No pack, Opus everywhere |
 |---|---|---|---|
 | Runs meeting every checked DoD item | 3/3 | **3/3** | 2/3 |
-| Mean cost per sprint | $5.49 | **$3.37** ($3.34, $3.39, $3.37) | $3.55 |
+| Mean cost per sprint | $5.49 | **$3.17** ($3.16, $3.19, $3.17) | $3.55 |
 | Orchestrator share | about $2.3 | **about $0.79** | – |
 | Mean wall time | 14.3 min | **10.3 min** | 10.4 min |
 
-With the cost settings, the pack cost 39% less than before and slightly less than the no-pack
+With the cost settings, the pack cost 42% less than before and 11% less than the no-pack
 runs, while still completing every item. That comparison is not like-for-like on models: the
 no-pack runs used Opus for every session, and a no-pack run on a cheaper orchestrator was not
 measured.
+
+**Correction (2026-11-14):** the cost script priced Sonnet 5.5 cache reads at $0.20 per million tokens; the
+list price is $0.10. With the correct price the cost-settings runs cost $3.17 on average, not $3.37. The Opus-only
+arms are unchanged.
 
 ## Limits
 

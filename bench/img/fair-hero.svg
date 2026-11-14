@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Lanewright fair benchmark: 6/6 vs 3/6 runs that met every checked Definition-of-Done item, with vs without the pack; 26/26 merges after a green CI run on the PR head, in all 12 runs (both arms); $5.49 vs $3.55 mean Claude cost per sprint, with vs without the pack; $3.37 with the pack&#x27;s cost settings (orchestrator on Sonnet 5.5), 3/3 complete">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Lanewright fair benchmark: 6/6 vs 3/6 runs that met every checked Definition-of-Done item, with vs without the pack; 26/26 merges after a green CI run on the PR head, in all 12 runs (both arms); $5.49 vs $3.55 mean Claude cost per sprint, with vs without the pack; $3.17 with the pack&#x27;s cost settings (orchestrator on Sonnet 5.5), 3/3 complete">
 <style>
   .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
   .on{fill:#111111} .mk{stroke:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
@@ -29,7 +29,7 @@
 <text x="464" y="203" class="mu" font-size="13" font-weight="400" text-anchor="start">sprint, with vs without</text>
 <text x="464" y="222" class="mu" font-size="13" font-weight="400" text-anchor="start">the pack</text>
 <rect class="tile" x="658" y="104" width="196" height="170" rx="10"/>
-<text x="674" y="150" class="fg" font-size="34" font-weight="700" text-anchor="start">$3.37</text>
+<text x="674" y="150" class="fg" font-size="34" font-weight="700" text-anchor="start">$3.17</text>
 <text x="674" y="184" class="mu" font-size="13" font-weight="400" text-anchor="start">with the pack&#x27;s cost</text>
 <text x="674" y="203" class="mu" font-size="13" font-weight="400" text-anchor="start">settings (orchestrator on</text>
 <text x="674" y="222" class="mu" font-size="13" font-weight="400" text-anchor="start">Sonnet 5.5), 3/3 complete</text>

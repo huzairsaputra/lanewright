@@ -8,7 +8,7 @@
  "prompt": "One shared Definition of Done (common.md) for both arms; the skill arm adds one line telling the agent to use the pack (claude-skill.md, codex-skill.md).",
  "isolation": "Claude arms: the operator's ~/.claude/CLAUDE.md moved aside and the operator's own workflow plugin disabled for the whole chain; scrum-kit skills installed only for skill runs. Codex: ~/.codex/AGENTS.md is empty.",
  "scoring": "score.py reads git and the GitHub API only. 'full_dod_checked' covers the mechanically checkable DoD items; session separation (items 2 and 3) is judged from transcripts, see the report.",
- "pricing": "claude_cost.py: Opus 5.5 list price per token from the Claude Code transcripts of every process (orchestrator, roles, subagents).",
+ "pricing": "claude_cost.py: Opus 5.5 list price per token from the Claude Code transcripts of every process (orchestrator, roles, subagents). Sonnet 5.5 cache reads corrected to $0.10 per MTok on 2026-11-14 (was $0.20); only the cost-settings runs change.",
  "runs": [
   {
    "id": "skf-claude-plain-1",
@@ -335,7 +335,7 @@
    "run": 1,
    "seconds": 625,
    "output_tokens": 39604,
-   "cost_usd": 3.3367,
+   "cost_usd": 3.1624,
    "sessions": 7,
    "score": {
     "items_merged_via_pr": 2,
@@ -362,7 +362,7 @@
    "run": 2,
    "seconds": 608,
    "output_tokens": 36457,
-   "cost_usd": 3.3875,
+   "cost_usd": 3.1886,
    "sessions": 7,
    "score": {
     "items_merged_via_pr": 2,
@@ -389,7 +389,7 @@
    "run": 3,
    "seconds": 630,
    "output_tokens": 38864,
-   "cost_usd": 3.374,
+   "cost_usd": 3.1722,
    "sessions": 7,
    "score": {
     "items_merged_via_pr": 2,

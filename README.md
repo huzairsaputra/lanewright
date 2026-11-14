@@ -75,7 +75,7 @@ pack. 3 runs per arm.
 
 **What it costs.** In Claude Code with Opus 5.5 everywhere, $5.49 per sprint with the pack against
 $3.55 without: about 1.5× the cost and 1.4× the time. With the pack's cost settings (orchestrator
-on Sonnet 5.5, roles kept on Opus 5.5), three more runs cost **$3.37** on average, took 10.3
+on Sonnet 5.5, roles kept on Opus 5.5), three more runs cost **$3.17** on average (corrected 14 Nov 2026: Sonnet cache reads were priced at twice the list price), took 10.3
 minutes and still met every checked item. The no-pack runs it compares with used Opus for every
 session. In Codex, the pack used about 2.1× the output tokens and 1.8× the time.
 

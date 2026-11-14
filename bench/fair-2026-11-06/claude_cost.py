@@ -12,10 +12,11 @@ ROOT = os.path.expanduser("~/.claude/projects")
 
 
 # List prices, $ per token (claude-api skill; Opus checked against a CLI-reported cost). Cache writes
-# are 1.25x (5 min) and 2x (1 h) the input price.
+# are 1.25x (5 min) and 2x (1 h) the input price. Cache reads are 0.05x the input price for Opus 5.5 and
+# Sonnet 5.5 (Sonnet corrected from $0.20 to $0.10 per MTok on 2026-11-14, official pricing page).
 PRICES = {
     "claude-opus-5-5": {"input": 4e-6, "output": 20e-6, "cache_read": 0.2e-6, "cache_write_5m": 5e-6, "cache_write_1h": 8e-6},
-    "claude-sonnet-5-5": {"input": 2e-6, "output": 10e-6, "cache_read": 0.2e-6, "cache_write_5m": 2.5e-6, "cache_write_1h": 4e-6},
+    "claude-sonnet-5-5": {"input": 2e-6, "output": 10e-6, "cache_read": 0.1e-6, "cache_write_5m": 2.5e-6, "cache_write_1h": 4e-6},
 }
 
 
