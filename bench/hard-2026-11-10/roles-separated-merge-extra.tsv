@@ -1,0 +1,17 @@
+run	setting	pack	grader	merge_attribution	kinds_per_item
+bench-20261115-x-s2-lw-1	S2	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s2-lw-2	S2	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s2-sk-1	S2	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s2-sk-2	S2	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s3-lw-1	S3	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s3-lw-2	S3	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s3-sk-1	S3	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s3-sk-2	S3	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s4-lw-1	S4	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s4-lw-2	S4	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s4-sk-1	S4	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s4-sk-2	S4	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s5-lw-1	S5	lanewright	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}
+bench-20261115-x-s5-lw-2	S5	lanewright	False	False	{"1":["impl","tests"],"2":[],"3":[],"4":[]}
+bench-20261115-x-s5-sk-1	S5	scrumkit	False	False	{"1":["impl","tests"],"2":[],"3":[],"4":[]}
+bench-20261115-x-s5-sk-2	S5	scrumkit	False	True	{"1":["impl","tests"],"2":["impl","tests"],"3":["impl","tests"],"4":["impl","tests"]}

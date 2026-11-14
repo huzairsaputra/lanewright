@@ -11,10 +11,10 @@ Every role in its own lane, every handoff through a reviewed, CI-gated merge req
 <p align="center"><a href="https://www.agensi.io/r/HUZAIRSAPUTRA?to=/skills/lanewright-sprint-workflow-for-ai-coding-agent-teams"><img src="brand/agensi-badge.svg" height="34" alt="Lanewright: sprint workflow for AI coding agent teams on Agensi"></a></p>
 
 <p align="center">
-  <img src="bench/img/fair-hero.svg" width="880" alt="Lanewright fair benchmark: 6 of 6 runs met every checked Definition-of-Done item with the pack, 3 of 6 without; 26 of 26 merges after a green CI run on the PR head in all 12 runs; mean Claude cost per sprint $5.49 with the pack and $3.55 without; $3.37 with the pack's cost settings, 3 of 3 complete.">
+  <img src="bench/img/overall-hero.svg" width="880" alt="Lanewright benchmarks, as measured, 73 runs from 6 to 14 Nov 2026. Definition of Done, consistent: in the fair benchmark 6 of 6 runs with the pack met every checked item against 3 of 6 without; in the hard benchmark review verdicts were missing in 10 of 21 runs without the pack and 2 of 21 with it, reports in 10 and 1; in the extra phase no Lanewright run missed its reports against 8 of 8 scrum-kit runs. Hidden acceptance tests, not consistent: the whole hidden suite passed in 3 of 21 runs without the pack and 4 of 21 with it, and in 4 of 8 scrum-kit and 6 of 8 Lanewright runs. Cost per passed item, not consistent: with gpt-5.6-sol it rose from $0.72 to $2.79 with the pack; lower with the pack for 4 of 7 models; scrum-kit cheaper per passed item in 3 of 4 extra-phase settings.">
 </p>
 
-<p align="center"><sub>One Definition of Done for both arms, 3 runs per arm, Claude Code (Opus 5.5) and Codex CLI. <a href="#numbers">Numbers</a>.</sub></p>
+<p align="center"><sub>Every benchmark so far: the fair benchmark (small task), the hard benchmark (7 models, 42 runs) and its extra phase (Lanewright against scrum-kit, 16 runs). With the pack, review verdicts, reports and the PR flow were in place in nearly every run; code correctness and cost did not move one way. Details: <a href="#numbers">fair benchmark</a>, <a href="bench/hard-2026-11-10/README.md">hard benchmark</a>, <a href="bench/hard-2026-11-10/extra-phase.md">extra phase</a>.</sub></p>
 
 # Lanewright
 
@@ -123,6 +123,10 @@ complete (review verdicts and reports), but it did not reliably make the code mo
 was much more expensive. A measurement fault in one DoD item is reported next to the frozen grader's numbers:
 [`bench/hard-2026-11-10/`](bench/hard-2026-11-10/README.md). Write-up:
 [I ran 42 more agent sprints on a harder task](https://dev.to/huzair_saputra/i-ran-42-more-agent-sprints-on-a-harder-task-heres-what-the-workflow-didnt-fix-33hj) (dev.to).
+Its extra phase (13-14 Nov 2026) ran Lanewright against scrum-kit 1.5.0 in Claude Code at four model settings, 16 runs:
+Lanewright met more DoD items in every setting, scrum-kit was cheaper per run in every setting, and neither was
+consistently cheaper per passed hidden test or faster: [`extra-phase.md`](bench/hard-2026-11-10/extra-phase.md).
+Claude costs in both were corrected on 14 Nov 2026 after a price-table error (Sonnet cache reads, Haiku long prompts).
 
 **How many runs failed?** A tally of every run that was asked to deliver a whole job with the pack, and
 how each ended (22 runs, 20 finished, 2 stopped where a human decides, 1 interrupted by a usage limit and

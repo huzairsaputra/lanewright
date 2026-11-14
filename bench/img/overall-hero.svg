@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" width="960" height="650" role="img" aria-label="Lanewright benchmarks: DoD met (consistent): Fair benchmark, 6 Nov: 6/6 vs 3/6 runs met every checked item, with vs without the pack, Hard benchmark, 10-12 Nov: 10 → 2 runs of 21 without review verdicts, no pack → pack; reports 10 → 1. Mean DoD up in 3 of 7 models (6 with D10), Extra phase, 13-14 Nov: 8 vs 0 runs of 8 without reports, scrum-kit vs Lanewright. Lanewright DoD higher in 4 of 4 settings; Hidden tests (not consistent): Fair benchmark, 6 Nov: n/a this small task had no hidden acceptance tests, Hard benchmark, 10-12 Nov: 3 vs 4 runs of 21 passing every hidden test, without vs with. Per model: up 3, same 2, down 2, Extra phase, 13-14 Nov: 4 vs 6 runs of 8 passing every hidden test, scrum-kit vs Lanewright. Same in 2 settings, higher in 2; Cost (not consistent): Fair benchmark, 6 Nov: $5.49 vs $3.55 Claude cost per sprint, with vs without (no hidden tests to divide by), Hard benchmark, 10-12 Nov: $0.72 → $2.79 gpt-5.6-sol, no pack → pack. Lower with the pack for 4 of 7 models, Extra phase, 13-14 Nov: 3 of 4 settings where scrum-kit was cheaper per passed item; cheaper per run in 4 of 4">
+<style>
+  .bg{fill:#FFFFFF} .fg{fill:#111111} .mu{fill:#6B6B6B} .ln{stroke:#E3E3E3}
+  .on{fill:#111111} .mk{stroke:#111111} .off{fill:#C9C9C9} .tile{fill:#F5F5F5}
+  text{font-family:Inter,'Helvetica Neue',Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#111111} .fg{fill:#F2F2F2} .mu{fill:#9A9A9A} .ln{stroke:#2C2C2C}
+    .on{fill:#F2F2F2} .mk{stroke:#F2F2F2} .off{fill:#4A4A4A} .tile{fill:#1C1C1C}
+  }
+</style>
+<rect class="bg" width="960" height="650" rx="12"/>
+<line class="mk" x1="37.5" y1="28.5" x2="37.5" y2="46.5" stroke-width="4.5" stroke-linecap="round"/><line class="mk" x1="37.5" y1="46.5" x2="51.5" y2="46.5" stroke-width="4.5" stroke-linecap="round"/><line class="mk" x1="44.5" y1="28.5" x2="44.5" y2="40.5" stroke-width="1.5" stroke-linecap="round"/><line class="mk" x1="51.5" y1="28.5" x2="51.5" y2="40.5" stroke-width="1.5" stroke-linecap="round"/>
+<text x="76" y="52" class="fg" font-size="24" font-weight="700" text-anchor="start">Lanewright benchmarks, as measured</text>
+<text x="76" y="76" class="mu" font-size="14" font-weight="400" text-anchor="start">73 runs, 6-14 Nov 2026. The pack makes the process complete; it does not make the code reliably more correct or cheaper.</text>
+<text x="204" y="118" class="fg" font-size="15" font-weight="700" text-anchor="start">Fair benchmark, 6 Nov</text>
+<text x="204" y="136" class="mu" font-size="12" font-weight="400" text-anchor="start">small task, Opus 5.5 and</text>
+<text x="204" y="152" class="mu" font-size="12" font-weight="400" text-anchor="start">gpt-6.1-sol, 15 runs</text>
+<text x="456" y="118" class="fg" font-size="15" font-weight="700" text-anchor="start">Hard benchmark, 10-12 Nov</text>
+<text x="456" y="136" class="mu" font-size="12" font-weight="400" text-anchor="start">7 models, no pack against</text>
+<text x="456" y="152" class="mu" font-size="12" font-weight="400" text-anchor="start">Lanewright, 42 runs</text>
+<text x="708" y="118" class="fg" font-size="15" font-weight="700" text-anchor="start">Extra phase, 13-14 Nov</text>
+<text x="708" y="136" class="mu" font-size="12" font-weight="400" text-anchor="start">4 Claude settings, scrum-kit against</text>
+<text x="708" y="152" class="mu" font-size="12" font-weight="400" text-anchor="start">Lanewright, 16 runs</text>
+<text x="28" y="202" class="fg" font-size="17" font-weight="700" text-anchor="start">DoD met</text>
+<text x="28" y="222" class="mu" font-size="13" font-weight="400" text-anchor="start">frozen grader</text>
+<text x="28" y="248" class="fg" font-size="13" font-weight="700" text-anchor="start">consistent</text>
+<rect class="tile" x="190" y="172" width="242" height="120" rx="10"/>
+<text x="204" y="208" class="fg" font-size="26" font-weight="700" text-anchor="start">6/6 vs 3/6</text>
+<text x="204" y="232" class="mu" font-size="12" font-weight="400" text-anchor="start">runs met every checked item, with vs</text>
+<text x="204" y="249" class="mu" font-size="12" font-weight="400" text-anchor="start">without the pack</text>
+<rect class="tile" x="442" y="172" width="242" height="120" rx="10"/>
+<text x="456" y="208" class="fg" font-size="26" font-weight="700" text-anchor="start">10 → 2</text>
+<text x="456" y="232" class="mu" font-size="12" font-weight="400" text-anchor="start">runs of 21 without review verdicts, no</text>
+<text x="456" y="249" class="mu" font-size="12" font-weight="400" text-anchor="start">pack → pack; reports 10 → 1. Mean DoD</text>
+<text x="456" y="266" class="mu" font-size="12" font-weight="400" text-anchor="start">up in 3 of 7 models (6 with D10)</text>
+<rect class="tile" x="694" y="172" width="242" height="120" rx="10"/>
+<text x="708" y="208" class="fg" font-size="26" font-weight="700" text-anchor="start">8 vs 0</text>
+<text x="708" y="232" class="mu" font-size="12" font-weight="400" text-anchor="start">runs of 8 without reports, scrum-kit</text>
+<text x="708" y="249" class="mu" font-size="12" font-weight="400" text-anchor="start">vs Lanewright. Lanewright DoD higher</text>
+<text x="708" y="266" class="mu" font-size="12" font-weight="400" text-anchor="start">in 4 of 4 settings</text>
+<text x="28" y="334" class="fg" font-size="17" font-weight="700" text-anchor="start">Hidden tests</text>
+<text x="28" y="354" class="mu" font-size="13" font-weight="400" text-anchor="start">code correctness</text>
+<text x="28" y="380" class="fg" font-size="13" font-weight="700" text-anchor="start">not consistent</text>
+<rect class="tile" x="190" y="304" width="242" height="120" rx="10"/>
+<text x="204" y="340" class="fg" font-size="26" font-weight="700" text-anchor="start">n/a</text>
+<text x="204" y="364" class="mu" font-size="12" font-weight="400" text-anchor="start">this small task had no hidden</text>
+<text x="204" y="381" class="mu" font-size="12" font-weight="400" text-anchor="start">acceptance tests</text>
+<rect class="tile" x="442" y="304" width="242" height="120" rx="10"/>
+<text x="456" y="340" class="fg" font-size="26" font-weight="700" text-anchor="start">3 vs 4</text>
+<text x="456" y="364" class="mu" font-size="12" font-weight="400" text-anchor="start">runs of 21 passing every hidden test,</text>
+<text x="456" y="381" class="mu" font-size="12" font-weight="400" text-anchor="start">without vs with. Per model: up 3, same</text>
+<text x="456" y="398" class="mu" font-size="12" font-weight="400" text-anchor="start">2, down 2</text>
+<rect class="tile" x="694" y="304" width="242" height="120" rx="10"/>
+<text x="708" y="340" class="fg" font-size="26" font-weight="700" text-anchor="start">4 vs 6</text>
+<text x="708" y="364" class="mu" font-size="12" font-weight="400" text-anchor="start">runs of 8 passing every hidden test,</text>
+<text x="708" y="381" class="mu" font-size="12" font-weight="400" text-anchor="start">scrum-kit vs Lanewright. Same in 2</text>
+<text x="708" y="398" class="mu" font-size="12" font-weight="400" text-anchor="start">settings, higher in 2</text>
+<text x="28" y="466" class="fg" font-size="17" font-weight="700" text-anchor="start">Cost</text>
+<text x="28" y="486" class="mu" font-size="13" font-weight="400" text-anchor="start">per passed item</text>
+<text x="28" y="512" class="fg" font-size="13" font-weight="700" text-anchor="start">not consistent</text>
+<rect class="tile" x="190" y="436" width="242" height="120" rx="10"/>
+<text x="204" y="472" class="fg" font-size="20" font-weight="700" text-anchor="start">$5.49 vs $3.55</text>
+<text x="204" y="496" class="mu" font-size="12" font-weight="400" text-anchor="start">Claude cost per sprint, with vs</text>
+<text x="204" y="513" class="mu" font-size="12" font-weight="400" text-anchor="start">without (no hidden tests to divide by)</text>
+<rect class="tile" x="442" y="436" width="242" height="120" rx="10"/>
+<text x="456" y="472" class="fg" font-size="20" font-weight="700" text-anchor="start">$0.72 → $2.79</text>
+<text x="456" y="496" class="mu" font-size="12" font-weight="400" text-anchor="start">gpt-5.6-sol, no pack → pack. Lower</text>
+<text x="456" y="513" class="mu" font-size="12" font-weight="400" text-anchor="start">with the pack for 4 of 7 models</text>
+<rect class="tile" x="694" y="436" width="242" height="120" rx="10"/>
+<text x="708" y="472" class="fg" font-size="26" font-weight="700" text-anchor="start">3 of 4</text>
+<text x="708" y="496" class="mu" font-size="12" font-weight="400" text-anchor="start">settings where scrum-kit was cheaper</text>
+<text x="708" y="513" class="mu" font-size="12" font-weight="400" text-anchor="start">per passed item; cheaper per run in 4</text>
+<text x="708" y="530" class="mu" font-size="12" font-weight="400" text-anchor="start">of 4</text>
+<text x="28" y="598" class="mu" font-size="12" font-weight="400" text-anchor="start">DoD by the frozen grader; D10 re-scores DoD item 1 (roles separated), which the grader misread after item branches were deleted. Notional cost at list</text>
+<text x="28" y="615" class="mu" font-size="12" font-weight="400" text-anchor="start">prices, Claude prices corrected 14 Nov 2026 (D14). 2-3 runs per cell on one task each: a direction, not significance.</text>
+</svg>

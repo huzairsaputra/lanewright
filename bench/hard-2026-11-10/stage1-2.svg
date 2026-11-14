@@ -293,7 +293,7 @@
 <line x1="80" x2="1170" y1="1030" y2="1030" stroke="#333"/>
 <text x="313.6" y="1066" font-size="12" fill="#666" text-anchor="middle">Claude</text>
 <text x="858.6" y="1066" font-size="12" fill="#666" text-anchor="middle">Codex</text>
-<text x="80" y="1102" font-size="16" font-weight="bold" fill="#111">Notional cost per run (USD, list prices)</text>
+<text x="80" y="1102" font-size="16" font-weight="bold" fill="#111">Notional cost per run (USD, list prices; Claude prices corrected, D14)</text>
 <line x1="80" x2="1170" y1="1350.0" y2="1350.0" stroke="#e5e7eb"/>
 <text x="72" y="1354.0" font-size="12" fill="#666" text-anchor="end">$0</text>
 <line x1="80" x2="1170" y1="1304.0" y2="1304.0" stroke="#e5e7eb"/>
@@ -307,27 +307,27 @@
 <line x1="80" x2="1170" y1="1120.0" y2="1120.0" stroke="#e5e7eb"/>
 <text x="72" y="1124.0" font-size="12" fill="#666" text-anchor="end">$10</text>
 <line x1="547.1" x2="547.1" y1="1120" y2="1350" stroke="#999" stroke-dasharray="4 4"/>
-<rect x="108.1" y="1346.1" width="46.7" height="3.9" fill="#6b7f99" opacity="0.85" rx="2"/>
-<text x="131.5" y="1324.1" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">0.17</text>
-<circle cx="121.5" cy="1345.5" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="131.5" cy="1345.9" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<rect x="108.1" y="1345.7" width="46.7" height="4.3" fill="#6b7f99" opacity="0.85" rx="2"/>
+<text x="131.5" y="1323.7" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">0.19</text>
+<circle cx="121.5" cy="1345.4" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="131.5" cy="1344.9" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
 <circle cx="141.5" cy="1346.9" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
-<rect x="160.9" y="1343.8" width="46.7" height="6.2" fill="#d9822b" opacity="0.85" rx="2"/>
-<text x="184.2" y="1321.8" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">0.27</text>
-<circle cx="174.2" cy="1343.5" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="184.2" cy="1344.6" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="194.2" cy="1343.4" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="160.9" y="1337.0" width="46.7" height="13.0" fill="#d9822b" opacity="0.85" rx="2"/>
+<text x="184.2" y="1315.0" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">0.56</text>
+<circle cx="174.2" cy="1334.9" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="184.2" cy="1339.5" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="194.2" cy="1336.6" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
 <text x="157.9" y="1368" font-size="13" fill="#111" text-anchor="middle">Haiku 5.5</text>
-<rect x="263.9" y="1308.8" width="46.7" height="41.2" fill="#6b7f99" opacity="0.85" rx="2"/>
-<text x="287.2" y="1340.0" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">1.79</text>
-<circle cx="277.2" cy="1306.3" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="287.2" cy="1308.2" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="297.2" cy="1312.0" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
-<rect x="316.6" y="1318.4" width="46.7" height="31.6" fill="#d9822b" opacity="0.85" rx="2"/>
-<text x="339.9" y="1296.4" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">1.37</text>
-<circle cx="329.9" cy="1318.2" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="339.9" cy="1315.5" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
-<circle cx="349.9" cy="1321.6" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="263.9" y="1315.8" width="46.7" height="34.2" fill="#6b7f99" opacity="0.85" rx="2"/>
+<text x="287.2" y="1293.8" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">1.49</text>
+<circle cx="277.2" cy="1313.5" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="287.2" cy="1315.9" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="297.2" cy="1318.0" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="316.6" y="1325.9" width="46.7" height="24.1" fill="#d9822b" opacity="0.85" rx="2"/>
+<text x="339.9" y="1303.9" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">1.05</text>
+<circle cx="329.9" cy="1325.8" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="339.9" cy="1324.0" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="349.9" cy="1327.7" r="4" fill="#111" stroke="#111" stroke-width="1.5"/>
 <text x="313.6" y="1368" font-size="13" fill="#111" text-anchor="middle">Sonnet 5.5</text>
 <rect x="419.6" y="1230.4" width="46.7" height="119.6" fill="#6b7f99" opacity="0.85" rx="2"/>
 <text x="442.9" y="1340.0" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">5.20</text>

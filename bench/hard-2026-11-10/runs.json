@@ -123,7 +123,7 @@
    "7_hidden_suite": false
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 0.1972,
+  "cost_usd_notional": 0.2018,
   "seconds": 1319.4,
   "tokens": {
    "claude": {
@@ -157,7 +157,7 @@
    "7_hidden_suite": false
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 0.1767,
+  "cost_usd_notional": 0.2207,
   "seconds": 847.9,
   "tokens": {
    "claude": {
@@ -633,7 +633,7 @@
    "7_hidden_suite": false
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 1.9008,
+  "cost_usd_notional": 1.5852,
   "seconds": 1004.8,
   "tokens": {
    "claude": {
@@ -667,7 +667,7 @@
    "7_hidden_suite": true
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 1.8165,
+  "cost_usd_notional": 1.483,
   "seconds": 732.2,
   "tokens": {
    "claude": {
@@ -701,7 +701,7 @@
    "7_hidden_suite": true
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 1.6504,
+  "cost_usd_notional": 1.393,
   "seconds": 781.1,
   "tokens": {
    "claude": {
@@ -837,7 +837,7 @@
    "7_hidden_suite": false
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 0.2807,
+  "cost_usd_notional": 0.6559,
   "seconds": 855.3,
   "tokens": {
    "claude": {
@@ -871,7 +871,7 @@
    "7_hidden_suite": false
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 0.2335,
+  "cost_usd_notional": 0.455,
   "seconds": 771.9,
   "tokens": {
    "claude": {
@@ -905,7 +905,7 @@
    "7_hidden_suite": true
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 0.288,
+  "cost_usd_notional": 0.5816,
   "seconds": 1023.1,
   "tokens": {
    "claude": {
@@ -1347,7 +1347,7 @@
    "7_hidden_suite": true
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 1.3812,
+  "cost_usd_notional": 1.0505,
   "seconds": 853.5,
   "tokens": {
    "claude": {
@@ -1381,7 +1381,7 @@
    "7_hidden_suite": true
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 1.502,
+  "cost_usd_notional": 1.1315,
   "seconds": 1074.9,
   "tokens": {
    "claude": {
@@ -1415,7 +1415,7 @@
    "7_hidden_suite": true
   },
   "cross_region_trap_violated": false,
-  "cost_usd_notional": 1.2357,
+  "cost_usd_notional": 0.9674,
   "seconds": 733.7,
   "tokens": {
    "claude": {
